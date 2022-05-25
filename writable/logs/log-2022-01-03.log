@@ -1,0 +1,351 @@
+ERROR - 2022-01-03 14:32:02 --> Table 'admin' is marked as crashed and should be repaired
+CRITICAL - 2022-01-03 14:32:02 --> Table 'admin' is marked as crashed and should be repaired
+#0 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp80\htdocs\app_spm\app\Controllers\Auth\Auth.php(75): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Auth\Auth->ceklogin()
+#6 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Auth))
+#7 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp80\htdocs\app_spm\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp80\\htdo...')
+#10 {main}
+ERROR - 2022-01-03 14:32:27 --> Table 'admin' is marked as crashed and should be repaired
+CRITICAL - 2022-01-03 14:32:27 --> Table 'admin' is marked as crashed and should be repaired
+#0 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp80\htdocs\app_spm\app\Controllers\Auth\Auth.php(75): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Auth\Auth->ceklogin()
+#6 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Auth))
+#7 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp80\htdocs\app_spm\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp80\\htdo...')
+#10 {main}
+ERROR - 2022-01-03 14:32:51 --> Table 'admin' is marked as crashed and should be repaired
+CRITICAL - 2022-01-03 14:32:51 --> Table 'admin' is marked as crashed and should be repaired
+#0 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp80\htdocs\app_spm\app\Controllers\Auth\Auth.php(75): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Auth\Auth->ceklogin()
+#6 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Auth))
+#7 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp80\htdocs\app_spm\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp80\\htdo...')
+#10 {main}
+ERROR - 2022-01-03 14:32:59 --> Table 'admin' is marked as crashed and should be repaired
+CRITICAL - 2022-01-03 14:32:59 --> Table 'admin' is marked as crashed and should be repaired
+#0 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp80\htdocs\app_spm\app\Controllers\Auth\Auth.php(75): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Auth\Auth->ceklogin()
+#6 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Auth))
+#7 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp80\htdocs\app_spm\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp80\\htdo...')
+#10 {main}
+ERROR - 2022-01-03 14:35:02 --> Table 'admin' is marked as crashed and should be repaired
+CRITICAL - 2022-01-03 14:35:02 --> Table 'admin' is marked as crashed and should be repaired
+#0 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp80\htdocs\app_spm\app\Controllers\Auth\Auth.php(75): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Auth\Auth->ceklogin()
+#6 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Auth))
+#7 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp80\htdocs\app_spm\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp80\\htdo...')
+#10 {main}
+ERROR - 2022-01-03 14:35:28 --> Table 'admin' is marked as crashed and should be repaired
+CRITICAL - 2022-01-03 14:35:28 --> Table 'admin' is marked as crashed and should be repaired
+#0 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp80\htdocs\app_spm\app\Controllers\Auth\Auth.php(75): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Auth\Auth->ceklogin()
+#6 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Auth))
+#7 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp80\htdocs\app_spm\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp80\\htdo...')
+#10 {main}
+ERROR - 2022-01-03 14:35:38 --> Table 'admin' is marked as crashed and should be repaired
+CRITICAL - 2022-01-03 14:35:38 --> Table 'admin' is marked as crashed and should be repaired
+#0 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp80\htdocs\app_spm\app\Controllers\Auth\Auth.php(75): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Auth\Auth->ceklogin()
+#6 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Auth))
+#7 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp80\htdocs\app_spm\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp80\\htdo...')
+#10 {main}
+ERROR - 2022-01-03 14:38:29 --> Table 'admin' is marked as crashed and should be repaired
+CRITICAL - 2022-01-03 14:38:29 --> Table 'admin' is marked as crashed and should be repaired
+#0 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp80\htdocs\app_spm\app\Controllers\Auth\Auth.php(75): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Auth\Auth->ceklogin()
+#6 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Auth))
+#7 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp80\htdocs\app_spm\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp80\\htdo...')
+#10 {main}
+ERROR - 2022-01-03 01:39:27 --> Table 'admin' is marked as crashed and should be repaired
+CRITICAL - 2022-01-03 01:39:27 --> Table 'admin' is marked as crashed and should be repaired
+#0 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp80\htdocs\app_spm\app\Controllers\Auth\Auth.php(75): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Auth\Auth->ceklogin()
+#6 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Auth))
+#7 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp80\htdocs\app_spm\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp80\\htdo...')
+#10 {main}
+ERROR - 2022-01-03 01:39:37 --> Table 'admin' is marked as crashed and should be repaired
+CRITICAL - 2022-01-03 01:39:37 --> Table 'admin' is marked as crashed and should be repaired
+#0 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp80\htdocs\app_spm\app\Controllers\Auth\Auth.php(75): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Auth\Auth->ceklogin()
+#6 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Auth))
+#7 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp80\htdocs\app_spm\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp80\\htdo...')
+#10 {main}
+ERROR - 2022-01-03 15:16:28 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ASC, 1 ASC, 9) as SIGNED) ASC
+ LIMIT 10' at line 3
+CRITICAL - 2022-01-03 15:16:28 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ASC, 1 ASC, 9) as SIGNED) ASC
+ LIMIT 10' at line 3
+#0 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp80\htdocs\app_spm\app\Models\M_master_mcn_name.php(53): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp80\htdocs\app_spm\app\Controllers\Master_mcn_name.php(73): App\Models\M_master_mcn_name->get_data()
+#6 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Master_mcn_name->data_tables()
+#7 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master_mcn_name))
+#8 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp80\htdocs\app_spm\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp80\\htdo...')
+#11 {main}
+ERROR - 2022-01-03 15:17:03 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ASC, 1 ASC, 9) as SIGNED) ASC
+ LIMIT 10' at line 3
+CRITICAL - 2022-01-03 15:17:03 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ASC, 1 ASC, 9) as SIGNED) ASC
+ LIMIT 10' at line 3
+#0 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp80\htdocs\app_spm\app\Models\M_master_mcn_name.php(53): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp80\htdocs\app_spm\app\Controllers\Master_mcn_name.php(73): App\Models\M_master_mcn_name->get_data()
+#6 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Master_mcn_name->data_tables()
+#7 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master_mcn_name))
+#8 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp80\htdocs\app_spm\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp80\\htdo...')
+#11 {main}
+ERROR - 2022-01-03 15:17:30 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ASC, 1 ASC, 9) as SIGNED) ASC
+ LIMIT 10' at line 3
+CRITICAL - 2022-01-03 15:17:30 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ASC, 1 ASC, 9) as SIGNED) ASC
+ LIMIT 10' at line 3
+#0 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp80\htdocs\app_spm\app\Models\M_master_mcn_name.php(53): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp80\htdocs\app_spm\app\Controllers\Master_mcn_name.php(73): App\Models\M_master_mcn_name->get_data()
+#6 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Master_mcn_name->data_tables()
+#7 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master_mcn_name))
+#8 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp80\htdocs\app_spm\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp80\\htdo...')
+#11 {main}
+ERROR - 2022-01-03 15:18:18 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ASC, 1 ASC, 9) as SIGNED) ASC
+ LIMIT 10' at line 4
+CRITICAL - 2022-01-03 15:18:18 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ASC, 1 ASC, 9) as SIGNED) ASC
+ LIMIT 10' at line 4
+#0 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp80\htdocs\app_spm\app\Models\M_master_mcn_name.php(53): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp80\htdocs\app_spm\app\Controllers\Master_mcn_name.php(73): App\Models\M_master_mcn_name->get_data()
+#6 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Master_mcn_name->data_tables()
+#7 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master_mcn_name))
+#8 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp80\htdocs\app_spm\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp80\\htdo...')
+#11 {main}
+ERROR - 2022-01-03 15:18:21 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ASC, 1 ASC, 9) as SIGNED) ASC
+ LIMIT 10' at line 4
+CRITICAL - 2022-01-03 15:18:21 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ASC, 1 ASC, 9) as SIGNED) ASC
+ LIMIT 10' at line 4
+#0 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp80\htdocs\app_spm\app\Models\M_master_mcn_name.php(53): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp80\htdocs\app_spm\app\Controllers\Master_mcn_name.php(73): App\Models\M_master_mcn_name->get_data()
+#6 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Master_mcn_name->data_tables()
+#7 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master_mcn_name))
+#8 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp80\htdocs\app_spm\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp80\\htdo...')
+#11 {main}
+ERROR - 2022-01-03 15:18:36 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ASC, 1 ASC, 9) as SIGNED) ASC
+ LIMIT 10' at line 4
+CRITICAL - 2022-01-03 15:18:36 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ASC, 1 ASC, 9) as SIGNED) ASC
+ LIMIT 10' at line 4
+#0 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp80\htdocs\app_spm\app\Models\M_master_mcn_name.php(53): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp80\htdocs\app_spm\app\Controllers\Master_mcn_name.php(73): App\Models\M_master_mcn_name->get_data()
+#6 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Master_mcn_name->data_tables()
+#7 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master_mcn_name))
+#8 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp80\htdocs\app_spm\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp80\\htdo...')
+#11 {main}
+ERROR - 2022-01-03 15:19:46 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ASC, 1 ASC, 9) as SIGNED) ASC
+ LIMIT 10' at line 3
+CRITICAL - 2022-01-03 15:19:46 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ASC, 1 ASC, 9) as SIGNED) ASC
+ LIMIT 10' at line 3
+#0 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp80\htdocs\app_spm\app\Models\M_master_mcn_name.php(53): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp80\htdocs\app_spm\app\Controllers\Master_mcn_name.php(73): App\Models\M_master_mcn_name->get_data()
+#6 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Master_mcn_name->data_tables()
+#7 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master_mcn_name))
+#8 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp80\htdocs\app_spm\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp80\\htdo...')
+#11 {main}
+CRITICAL - 2022-01-03 15:22:02 --> Undefined property: CodeIgniter\View\View::$m_reff
+#0 D:\xampp80\htdocs\app_spm\app\Views\master_mcn_name\edit.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\xampp80\\htdo...', 9)
+#1 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\View\View.php(214): include('D:\\xampp80\\htdo...')
+#2 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('master_mcn_name...', Array, true)
+#4 D:\xampp80\htdocs\app_spm\app\Controllers\Master_mcn_name.php(133): view('master_mcn_name...', Array)
+#5 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Master_mcn_name->edit_data()
+#6 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master_mcn_name))
+#7 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp80\htdocs\app_spm\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp80\\htdo...')
+#10 {main}
+CRITICAL - 2022-01-03 16:17:03 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::countAllResult()
+#0 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Master_slot_spm->getLine()
+#1 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master_slot_spm))
+#2 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp80\htdocs\app_spm\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp80\\htdo...')
+#5 {main}
+CRITICAL - 2022-01-03 16:17:05 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::countAllResult()
+#0 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Master_slot_spm->getLine()
+#1 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master_slot_spm))
+#2 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp80\htdocs\app_spm\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp80\\htdo...')
+#5 {main}
+CRITICAL - 2022-01-03 16:17:11 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::countAllResult()
+#0 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Master_slot_spm->getLine()
+#1 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master_slot_spm))
+#2 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp80\htdocs\app_spm\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp80\\htdo...')
+#5 {main}
+ERROR - 2022-01-03 16:20:12 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ASC, 1 ASC, 12) as SIGNED) ASC
+ LIMIT 10' at line 6
+CRITICAL - 2022-01-03 16:20:12 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ASC, 1 ASC, 12) as SIGNED) ASC
+ LIMIT 10' at line 6
+#0 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp80\htdocs\app_spm\app\Models\M_master_slot_spm.php(58): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp80\htdocs\app_spm\app\Controllers\Master_slot_spm.php(73): App\Models\M_master_slot_spm->get_data()
+#6 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Master_slot_spm->data_tables()
+#7 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master_slot_spm))
+#8 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp80\htdocs\app_spm\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp80\\htdo...')
+#11 {main}
+ERROR - 2022-01-03 16:20:17 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'DESC, 1 DESC, 12) as SIGNED) DESC
+ LIMIT 10' at line 6
+CRITICAL - 2022-01-03 16:20:17 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'DESC, 1 DESC, 12) as SIGNED) DESC
+ LIMIT 10' at line 6
+#0 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp80\htdocs\app_spm\app\Models\M_master_slot_spm.php(58): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp80\htdocs\app_spm\app\Controllers\Master_slot_spm.php(73): App\Models\M_master_slot_spm->get_data()
+#6 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Master_slot_spm->data_tables()
+#7 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master_slot_spm))
+#8 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp80\htdocs\app_spm\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp80\\htdo...')
+#11 {main}
+ERROR - 2022-01-03 16:20:22 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ASC, 1 ASC, 12) as SIGNED) ASC
+ LIMIT 10' at line 6
+CRITICAL - 2022-01-03 16:20:22 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ASC, 1 ASC, 12) as SIGNED) ASC
+ LIMIT 10' at line 6
+#0 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp80\htdocs\app_spm\app\Models\M_master_slot_spm.php(58): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp80\htdocs\app_spm\app\Controllers\Master_slot_spm.php(73): App\Models\M_master_slot_spm->get_data()
+#6 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Master_slot_spm->data_tables()
+#7 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master_slot_spm))
+#8 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp80\htdocs\app_spm\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp80\\htdo...')
+#11 {main}
+CRITICAL - 2022-01-03 16:31:30 --> Undefined property: CodeIgniter\View\View::$m_reff
+#0 D:\xampp80\htdocs\app_spm\app\Views\master_slot_spm\edit.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\xampp80\\htdo...', 12)
+#1 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\View\View.php(214): include('D:\\xampp80\\htdo...')
+#2 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('master_slot_spm...', Array, true)
+#4 D:\xampp80\htdocs\app_spm\app\Controllers\Master_slot_spm.php(146): view('master_slot_spm...', Array)
+#5 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Master_slot_spm->edit_data()
+#6 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master_slot_spm))
+#7 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp80\htdocs\app_spm\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp80\\htdo...')
+#10 {main}
+ERROR - 2022-01-03 17:07:28 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ASC, 1 ASC, 6) as SIGNED) ASC
+ LIMIT 10' at line 6
+CRITICAL - 2022-01-03 17:07:28 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ASC, 1 ASC, 6) as SIGNED) ASC
+ LIMIT 10' at line 6
+#0 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp80\htdocs\app_spm\app\Models\M_master_slot_mcn.php(56): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp80\htdocs\app_spm\app\Controllers\Master_slot_mcn.php(75): App\Models\M_master_slot_mcn->get_data()
+#6 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Master_slot_mcn->data_tables()
+#7 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master_slot_mcn))
+#8 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp80\htdocs\app_spm\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp80\\htdo...')
+#11 {main}

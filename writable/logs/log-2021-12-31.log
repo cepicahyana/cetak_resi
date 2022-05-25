@@ -1,0 +1,166 @@
+CRITICAL - 2021-12-31 01:11:07 --> Attempt to read property "warehouse_area" on null
+#0 D:\xampp80\htdocs\app_spm\app\Models\M_konfig.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\xampp80\\htdo...', 73)
+#1 D:\xampp80\htdocs\app_spm\app\Controllers\History.php(57): App\Models\M_konfig->warehouseAreaUser(NULL)
+#2 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\History->index()
+#3 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\History))
+#4 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp80\htdocs\app_spm\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp80\\htdo...')
+#7 {main}
+CRITICAL - 2021-12-31 01:11:14 --> Attempt to read property "warehouse_area" on null
+#0 D:\xampp80\htdocs\app_spm\app\Models\M_konfig.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\xampp80\\htdo...', 73)
+#1 D:\xampp80\htdocs\app_spm\app\Controllers\History.php(57): App\Models\M_konfig->warehouseAreaUser(NULL)
+#2 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\History->index()
+#3 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\History))
+#4 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp80\htdocs\app_spm\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp80\\htdo...')
+#7 {main}
+CRITICAL - 2021-12-31 01:11:19 --> Attempt to read property "warehouse_area" on null
+#0 D:\xampp80\htdocs\app_spm\app\Models\M_konfig.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\xampp80\\htdo...', 73)
+#1 D:\xampp80\htdocs\app_spm\app\Controllers\History.php(57): App\Models\M_konfig->warehouseAreaUser(NULL)
+#2 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\History->index()
+#3 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\History))
+#4 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp80\htdocs\app_spm\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp80\\htdo...')
+#7 {main}
+CRITICAL - 2021-12-31 01:11:21 --> Attempt to read property "warehouse_area" on null
+#0 D:\xampp80\htdocs\app_spm\app\Models\M_konfig.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\xampp80\\htdo...', 73)
+#1 D:\xampp80\htdocs\app_spm\app\Controllers\History.php(57): App\Models\M_konfig->warehouseAreaUser(NULL)
+#2 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\History->index()
+#3 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\History))
+#4 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp80\htdocs\app_spm\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp80\\htdo...')
+#7 {main}
+CRITICAL - 2021-12-31 01:12:06 --> Attempt to read property "warehouse_area" on null
+#0 D:\xampp80\htdocs\app_spm\app\Models\M_konfig.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\xampp80\\htdo...', 73)
+#1 D:\xampp80\htdocs\app_spm\app\Controllers\History.php(57): App\Models\M_konfig->warehouseAreaUser(NULL)
+#2 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\History->index()
+#3 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\History))
+#4 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp80\htdocs\app_spm\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp80\\htdo...')
+#7 {main}
+CRITICAL - 2021-12-31 01:12:07 --> Attempt to read property "warehouse_area" on null
+#0 D:\xampp80\htdocs\app_spm\app\Models\M_konfig.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\xampp80\\htdo...', 73)
+#1 D:\xampp80\htdocs\app_spm\app\Controllers\History.php(57): App\Models\M_konfig->warehouseAreaUser(NULL)
+#2 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\History->index()
+#3 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\History))
+#4 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp80\htdocs\app_spm\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp80\\htdo...')
+#7 {main}
+CRITICAL - 2021-12-31 01:12:07 --> Attempt to read property "warehouse_area" on null
+#0 D:\xampp80\htdocs\app_spm\app\Models\M_konfig.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\xampp80\\htdo...', 73)
+#1 D:\xampp80\htdocs\app_spm\app\Controllers\History.php(57): App\Models\M_konfig->warehouseAreaUser(NULL)
+#2 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\History->index()
+#3 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\History))
+#4 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp80\htdocs\app_spm\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp80\\htdo...')
+#7 {main}
+CRITICAL - 2021-12-31 01:57:01 --> You must set the database table to be used with your query.
+#0 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Model.php(688): CodeIgniter\Model->builder()
+#2 D:\xampp80\htdocs\app_spm\app\Models\M_condition_registration.php(27): CodeIgniter\Model->__get('v_data_scrap')
+#3 D:\xampp80\htdocs\app_spm\app\Controllers\Condition_registration.php(14): App\Models\M_condition_registration->__construct()
+#4 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(801): App\Controllers\Condition_registration->__construct()
+#5 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#6 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp80\htdocs\app_spm\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp80\\htdo...')
+#9 {main}
+CRITICAL - 2021-12-31 05:38:16 --> You must set the database table to be used with your query.
+#0 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Model.php(688): CodeIgniter\Model->builder()
+#2 D:\xampp80\htdocs\app_spm\app\Models\M_condition_registration.php(27): CodeIgniter\Model->__get('v_data_scrap')
+#3 D:\xampp80\htdocs\app_spm\app\Controllers\Condition_registration.php(14): App\Models\M_condition_registration->__construct()
+#4 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(801): App\Controllers\Condition_registration->__construct()
+#5 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#6 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp80\htdocs\app_spm\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp80\\htdo...')
+#9 {main}
+CRITICAL - 2021-12-31 05:40:34 --> You must set the database table to be used with your query.
+#0 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Model.php(688): CodeIgniter\Model->builder()
+#2 D:\xampp80\htdocs\app_spm\app\Models\M_condition_registration.php(27): CodeIgniter\Model->__get('v_data_scrap')
+#3 D:\xampp80\htdocs\app_spm\app\Controllers\Condition_registration.php(14): App\Models\M_condition_registration->__construct()
+#4 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(801): App\Controllers\Condition_registration->__construct()
+#5 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#6 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp80\htdocs\app_spm\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp80\\htdo...')
+#9 {main}
+CRITICAL - 2021-12-31 05:40:39 --> You must set the database table to be used with your query.
+#0 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Model.php(688): CodeIgniter\Model->builder()
+#2 D:\xampp80\htdocs\app_spm\app\Models\M_condition_registration.php(27): CodeIgniter\Model->__get('v_data_scrap')
+#3 D:\xampp80\htdocs\app_spm\app\Controllers\Condition_registration.php(14): App\Models\M_condition_registration->__construct()
+#4 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(801): App\Controllers\Condition_registration->__construct()
+#5 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#6 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp80\htdocs\app_spm\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp80\\htdo...')
+#9 {main}
+CRITICAL - 2021-12-31 06:47:48 --> Class "konfig" not found
+#0 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\View\View.php(214): include()
+#1 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('configuration/i...', Array, true)
+#3 D:\xampp80\htdocs\app_spm\app\Controllers\Configuration.php(62): view('configuration/i...', Array)
+#4 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Configuration->index()
+#5 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuration))
+#6 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp80\htdocs\app_spm\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp80\\htdo...')
+#9 {main}
+CRITICAL - 2021-12-31 07:00:20 --> Undefined variable $con
+#0 D:\xampp80\htdocs\app_spm\app\Views\configuration\index.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xampp80\\htdo...', 19)
+#1 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\View\View.php(214): include('D:\\xampp80\\htdo...')
+#2 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('configuration/i...', Array, true)
+#4 D:\xampp80\htdocs\app_spm\app\Controllers\Configuration.php(67): view('configuration/i...', Array)
+#5 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Configuration->index()
+#6 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuration))
+#7 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp80\htdocs\app_spm\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp80\\htdo...')
+#10 {main}
+CRITICAL - 2021-12-31 07:00:26 --> Undefined variable $con
+#0 D:\xampp80\htdocs\app_spm\app\Views\configuration\index.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xampp80\\htdo...', 19)
+#1 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\View\View.php(214): include('D:\\xampp80\\htdo...')
+#2 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('configuration/i...', Array, true)
+#4 D:\xampp80\htdocs\app_spm\app\Controllers\Configuration.php(67): view('configuration/i...', Array)
+#5 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Configuration->index()
+#6 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuration))
+#7 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp80\htdocs\app_spm\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp80\\htdo...')
+#10 {main}
+CRITICAL - 2021-12-31 07:01:10 --> Undefined variable $con
+#0 D:\xampp80\htdocs\app_spm\app\Views\configuration\index.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xampp80\\htdo...', 19)
+#1 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\View\View.php(214): include('D:\\xampp80\\htdo...')
+#2 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('configuration/i...', Array, true)
+#4 D:\xampp80\htdocs\app_spm\app\Controllers\Configuration.php(67): view('configuration/i...', Array)
+#5 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Configuration->index()
+#6 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuration))
+#7 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp80\htdocs\app_spm\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp80\\htdo...')
+#10 {main}
+CRITICAL - 2021-12-31 07:01:49 --> Undefined variable $con
+#0 D:\xampp80\htdocs\app_spm\app\Views\configuration\index.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xampp80\\htdo...', 19)
+#1 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\View\View.php(214): include('D:\\xampp80\\htdo...')
+#2 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('configuration/i...', Array, true)
+#4 D:\xampp80\htdocs\app_spm\app\Controllers\Configuration.php(67): view('configuration/i...', Array)
+#5 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Configuration->index()
+#6 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuration))
+#7 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp80\htdocs\app_spm\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp80\\htdo...')
+#10 {main}

@@ -1,0 +1,16 @@
+CRITICAL - 2022-01-23 19:09:05 --> Undefined array key 2
+#0 D:\xampp80\htdocs\app_spm\app\Libraries\Tanggal.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp80\\htdo...', 33)
+#1 D:\xampp80\htdocs\app_spm\app\Controllers\Dashboard.php(205): App\Libraries\tanggal->rangeindo(NULL, 0)
+#2 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Dashboard->grafikLinechart()
+#3 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#4 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp80\htdocs\app_spm\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-23 19:09:06 --> Undefined array key 2
+#0 D:\xampp80\htdocs\app_spm\app\Libraries\Tanggal.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp80\\htdo...', 33)
+#1 D:\xampp80\htdocs\app_spm\app\Controllers\Dashboard.php(205): App\Libraries\tanggal->rangeindo(NULL, 0)
+#2 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Dashboard->grafikLinechart()
+#3 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#4 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp80\htdocs\app_spm\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}

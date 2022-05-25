@@ -1,0 +1,206 @@
+CRITICAL - 2022-01-25 12:00:30 --> Unsupported operand types: string * int
+#0 D:\xampp80\htdocs\app_spm\app\Models\M_reff.php(115): App\Libraries\tanggal->addDay('2022-01-20 05:0...', '')
+#1 D:\xampp80\htdocs\app_spm\app\Controllers\Registration_material.php(105): App\Models\M_reff->getDataPCS('00BR000F41')
+#2 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Registration_material->setAlocationAuto()
+#3 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registration_material))
+#4 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp80\htdocs\app_spm\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-25 12:01:13 --> Unsupported operand types: string * int
+#0 D:\xampp80\htdocs\app_spm\app\Models\M_reff.php(115): App\Libraries\tanggal->addDay('2022-01-20 05:0...', '')
+#1 D:\xampp80\htdocs\app_spm\app\Controllers\Registration_material.php(105): App\Models\M_reff->getDataPCS('00BR000F41')
+#2 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Registration_material->setAlocationAuto()
+#3 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registration_material))
+#4 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp80\htdocs\app_spm\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-25 12:04:20 --> Unsupported operand types: string * int
+#0 D:\xampp80\htdocs\app_spm\app\Models\M_reff.php(115): App\Libraries\tanggal->addDay('2022-01-21 00:3...', '')
+#1 D:\xampp80\htdocs\app_spm\app\Controllers\Registration_material.php(105): App\Models\M_reff->getDataPCS('00TB00M5I0')
+#2 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Registration_material->setAlocationAuto()
+#3 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registration_material))
+#4 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp80\htdocs\app_spm\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-25 12:08:59 --> Unsupported operand types: string * int
+#0 D:\xampp80\htdocs\app_spm\app\Models\M_reff.php(115): App\Libraries\tanggal->addDay('2022-01-21 00:3...', '')
+#1 D:\xampp80\htdocs\app_spm\app\Controllers\Registration_material.php(105): App\Models\M_reff->getDataPCS('00TB00M5I0')
+#2 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Registration_material->setAlocationAuto()
+#3 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registration_material))
+#4 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp80\htdocs\app_spm\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-25 12:09:09 --> Unsupported operand types: string * int
+#0 D:\xampp80\htdocs\app_spm\app\Models\M_reff.php(115): App\Libraries\tanggal->addDay('2022-01-21 00:3...', '')
+#1 D:\xampp80\htdocs\app_spm\app\Controllers\Registration_material.php(105): App\Models\M_reff->getDataPCS('00TB00M5I0')
+#2 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Registration_material->setAlocationAuto()
+#3 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registration_material))
+#4 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp80\htdocs\app_spm\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-25 12:16:38 --> Unsupported operand types: string * int
+#0 D:\xampp80\htdocs\app_spm\app\Models\M_reff.php(116): App\Libraries\tanggal->addDay('2020-01-25 15:5...', '')
+#1 D:\xampp80\htdocs\app_spm\app\Controllers\Registration_material.php(105): App\Models\M_reff->getDataPCS('00TB00M5I0')
+#2 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Registration_material->setAlocationAuto()
+#3 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registration_material))
+#4 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp80\htdocs\app_spm\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-25 12:23:52 --> Class "App\Libraries\DateTime" not found
+#0 D:\xampp80\htdocs\app_spm\app\Models\M_reff.php(115): App\Libraries\tanggal->addDay('2022-01-21 00:3...', '')
+#1 D:\xampp80\htdocs\app_spm\app\Controllers\Registration_material.php(105): App\Models\M_reff->getDataPCS('00TB00M5I0')
+#2 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Registration_material->setAlocationAuto()
+#3 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registration_material))
+#4 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp80\htdocs\app_spm\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-25 12:24:31 --> Class "App\Libraries\DateTime" not found
+#0 D:\xampp80\htdocs\app_spm\app\Models\M_reff.php(119): App\Libraries\tanggal->addTime('2022-01-21 00:3...', 0)
+#1 D:\xampp80\htdocs\app_spm\app\Controllers\Registration_material.php(105): App\Models\M_reff->getDataPCS('00TB00M5I0')
+#2 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Registration_material->setAlocationAuto()
+#3 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registration_material))
+#4 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp80\htdocs\app_spm\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-25 12:25:03 --> Class "App\Libraries\DateTime" not found
+#0 D:\xampp80\htdocs\app_spm\app\Models\M_reff.php(119): App\Libraries\tanggal->addTime('2022-01-21 00:3...', 0)
+#1 D:\xampp80\htdocs\app_spm\app\Controllers\Registration_material.php(105): App\Models\M_reff->getDataPCS('00TB00M5I0')
+#2 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Registration_material->setAlocationAuto()
+#3 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registration_material))
+#4 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp80\htdocs\app_spm\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-25 12:27:29 --> Class "App\Libraries\DateTime" not found
+#0 D:\xampp80\htdocs\app_spm\app\Models\M_reff.php(115): App\Libraries\tanggal->addDay('2022-01-21 00:3...', '')
+#1 D:\xampp80\htdocs\app_spm\app\Controllers\Registration_material.php(105): App\Models\M_reff->getDataPCS('00TB00M5I0')
+#2 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Registration_material->setAlocationAuto()
+#3 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registration_material))
+#4 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp80\htdocs\app_spm\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-25 12:30:33 --> Class "App\Libraries\DateTime" not found
+#0 D:\xampp80\htdocs\app_spm\app\Models\M_reff.php(115): App\Libraries\tanggal->addDay('2022-01-21 00:3...', '')
+#1 D:\xampp80\htdocs\app_spm\app\Controllers\Registration_material.php(105): App\Models\M_reff->getDataPCS('00TB00M5I0')
+#2 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Registration_material->setAlocationAuto()
+#3 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registration_material))
+#4 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp80\htdocs\app_spm\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-25 12:33:28 --> Class "App\Libraries\DateTime" not found
+#0 D:\xampp80\htdocs\app_spm\app\Models\M_reff.php(116): App\Libraries\tanggal->addDay('2022-01-21 00:3...', '')
+#1 D:\xampp80\htdocs\app_spm\app\Controllers\Registration_material.php(105): App\Models\M_reff->getDataPCS('00TB00M5I0')
+#2 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Registration_material->setAlocationAuto()
+#3 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registration_material))
+#4 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp80\htdocs\app_spm\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-25 12:34:15 --> Call to a member function modify() on string
+#0 D:\xampp80\htdocs\app_spm\app\Models\M_reff.php(116): App\Libraries\tanggal->addDay('2022-01-21 00:3...', '')
+#1 D:\xampp80\htdocs\app_spm\app\Controllers\Registration_material.php(105): App\Models\M_reff->getDataPCS('00TB00M5I0')
+#2 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Registration_material->setAlocationAuto()
+#3 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registration_material))
+#4 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp80\htdocs\app_spm\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-25 12:40:43 --> Class "App\Libraries\DateTime" not found
+#0 D:\xampp80\htdocs\app_spm\app\Models\M_reff.php(120): App\Libraries\tanggal->addTime('2022-01-21 00:3...', 0)
+#1 D:\xampp80\htdocs\app_spm\app\Controllers\Registration_material.php(105): App\Models\M_reff->getDataPCS('00TB00M5I0')
+#2 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Registration_material->setAlocationAuto()
+#3 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registration_material))
+#4 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp80\htdocs\app_spm\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-25 12:42:18 --> Class "App\Libraries\DateTime" not found
+#0 D:\xampp80\htdocs\app_spm\app\Models\M_reff.php(120): App\Libraries\tanggal->addTime('2022-01-21 00:3...', 0)
+#1 D:\xampp80\htdocs\app_spm\app\Controllers\Registration_material.php(105): App\Models\M_reff->getDataPCS('00TB00M5I0')
+#2 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Registration_material->setAlocationAuto()
+#3 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registration_material))
+#4 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp80\htdocs\app_spm\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-25 12:49:02 --> Undefined property: App\Controllers\Registration_material::$input
+#0 D:\xampp80\htdocs\app_spm\app\Controllers\Registration_material.php(453): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\xampp80\\htdo...', 453)
+#1 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Registration_material->getInfoSelectRack()
+#2 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registration_material))
+#3 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp80\htdocs\app_spm\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-25 12:49:46 --> Undefined property: App\Controllers\Registration_material::$input
+#0 D:\xampp80\htdocs\app_spm\app\Controllers\Registration_material.php(453): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\xampp80\\htdo...', 453)
+#1 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Registration_material->getInfoSelectRack()
+#2 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registration_material))
+#3 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp80\htdocs\app_spm\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-25 13:50:54 --> Call to a member function where() on null
+#0 D:\xampp80\htdocs\app_spm\app\Controllers\Transfer.php(470): App\Models\M_transfer->totalCondition('SPM')
+#1 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Transfer->getInfoSlot()
+#2 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transfer))
+#3 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp80\htdocs\app_spm\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-25 13:57:04 --> CodeIgniter\Router\RouteCollection::get(): Argument #3 ($options) must be of type ?array, string given, called in D:\xampp80\htdocs\app_spm\app\Config\Routes.php on line 35
+#0 D:\xampp80\htdocs\app_spm\app\Config\Routes.php(35): CodeIgniter\Router\RouteCollection->get('/', Array, 'Auth\\Auth::inde...')
+#1 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(705): require('D:\\xampp80\\htdo...')
+#2 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp80\htdocs\app_spm\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-25 14:03:51 --> Undefined property: App\Controllers\Registration_material::$mcl
+#0 D:\xampp80\htdocs\app_spm\app\Controllers\Registration_material.php(660): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\xampp80\\htdo...', 660)
+#1 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Registration_material->getInfoSlot()
+#2 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registration_material))
+#3 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp80\htdocs\app_spm\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-25 14:52:51 --> You must set the database table to be used with your query.
+#0 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Model.php(717): CodeIgniter\Model->builder()
+#2 D:\xampp80\htdocs\app_spm\app\Controllers\History.php(240): CodeIgniter\Model->__call('dataMaterialRow', Array)
+#3 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\History->downloadXL()
+#4 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\History))
+#5 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp80\htdocs\app_spm\index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-25 14:55:24 --> You must set the database table to be used with your query.
+#0 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Model.php(717): CodeIgniter\Model->builder()
+#2 D:\xampp80\htdocs\app_spm\app\Controllers\History.php(240): CodeIgniter\Model->__call('dataMaterialRow', Array)
+#3 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\History->downloadXL()
+#4 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\History))
+#5 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp80\htdocs\app_spm\index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-25 14:55:38 --> You must set the database table to be used with your query.
+#0 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Model.php(717): CodeIgniter\Model->builder()
+#2 D:\xampp80\htdocs\app_spm\app\Controllers\History.php(240): CodeIgniter\Model->__call('dataMaterialRow', Array)
+#3 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\History->downloadXL()
+#4 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\History))
+#5 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp80\htdocs\app_spm\index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-25 15:26:20 --> Attempt to read property "WM_NAME" on null
+#0 D:\xampp80\htdocs\app_spm\app\Models\M_reff.php(112): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\xampp80\\htdo...', 112)
+#1 D:\xampp80\htdocs\app_spm\app\Controllers\Registration_material.php(105): App\Models\M_reff->getDataPCS('00TB00M61P')
+#2 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Registration_material->setAlocationAuto()
+#3 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registration_material))
+#4 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp80\htdocs\app_spm\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-25 15:26:56 --> Attempt to read property "WM_NAME" on null
+#0 D:\xampp80\htdocs\app_spm\app\Models\M_reff.php(112): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\xampp80\\htdo...', 112)
+#1 D:\xampp80\htdocs\app_spm\app\Controllers\Registration_material.php(105): App\Models\M_reff->getDataPCS('00TB00M61P')
+#2 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Registration_material->setAlocationAuto()
+#3 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registration_material))
+#4 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp80\htdocs\app_spm\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-25 15:30:16 --> Attempt to read property "WM_NAME" on null
+#0 D:\xampp80\htdocs\app_spm\app\Models\M_reff.php(112): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\xampp80\\htdo...', 112)
+#1 D:\xampp80\htdocs\app_spm\app\Controllers\Registration_material.php(105): App\Models\M_reff->getDataPCS('00TB00M61P')
+#2 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Registration_material->setAlocationAuto()
+#3 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registration_material))
+#4 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp80\htdocs\app_spm\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}

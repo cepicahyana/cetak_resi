@@ -1,0 +1,496 @@
+CRITICAL - 2022-01-07 10:42:35 --> Invalid file: user.php
+#0 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('user.php')
+#1 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('user', Array, true)
+#2 D:\xampp80\htdocs\app_spm\app\Controllers\Data_user.php(177): view('user')
+#3 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Data_user->getuser_data()
+#4 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_user))
+#5 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp80\htdocs\app_spm\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp80\\htdo...')
+#8 {main}
+CRITICAL - 2022-01-07 10:45:42 --> Invalid file: user.php
+#0 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('user.php')
+#1 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('user', Array, true)
+#2 D:\xampp80\htdocs\app_spm\app\Controllers\Data_user.php(177): view('user')
+#3 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Data_user->getuser_data()
+#4 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_user))
+#5 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp80\htdocs\app_spm\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp80\\htdo...')
+#8 {main}
+ERROR - 2022-01-07 10:46:15 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near 'ROWS'.
+CRITICAL - 2022-01-07 10:46:15 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near 'ROWS'.
+#0 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute(' OFFSET 0 ROWS ...')
+#1 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery(' OFFSET 0 ROWS ...')
+#2 D:\xampp80\htdocs\app_spm\app\Models\M_data_user.php(258): CodeIgniter\Database\BaseConnection->query(' OFFSET 0 ROWS ...')
+#3 D:\xampp80\htdocs\app_spm\app\Controllers\Data_user.php(183): App\Models\M_data_user->get_data_user()
+#4 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Data_user->datauser_tables()
+#5 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_user))
+#6 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp80\htdocs\app_spm\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp80\\htdo...')
+#9 {main}
+CRITICAL - 2022-01-07 11:02:30 --> Invalid file: view.php
+#0 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('view.php')
+#1 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('view', Array, true)
+#2 D:\xampp80\htdocs\app_spm\app\Controllers\Data_user.php(150): view('view', Array)
+#3 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Data_user->view_data()
+#4 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_user))
+#5 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp80\htdocs\app_spm\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp80\\htdo...')
+#8 {main}
+CRITICAL - 2022-01-07 11:04:28 --> Undefined property: App\Controllers\Data_user::$input
+#0 D:\xampp80\htdocs\app_spm\app\Controllers\Data_user.php(167): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\xampp80\\htdo...', 167)
+#1 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Data_user->edit_data()
+#2 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_user))
+#3 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp80\htdocs\app_spm\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp80\\htdo...')
+#6 {main}
+CRITICAL - 2022-01-07 11:15:02 --> Undefined property: App\Controllers\Data_user::$input
+#0 D:\xampp80\htdocs\app_spm\app\Controllers\Data_user.php(167): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\xampp80\\htdo...', 167)
+#1 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Data_user->edit_data()
+#2 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_user))
+#3 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp80\htdocs\app_spm\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp80\\htdo...')
+#6 {main}
+CRITICAL - 2022-01-07 11:15:08 --> Undefined property: App\Controllers\Data_user::$input
+#0 D:\xampp80\htdocs\app_spm\app\Controllers\Data_user.php(167): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\xampp80\\htdo...', 167)
+#1 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Data_user->edit_data()
+#2 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_user))
+#3 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp80\htdocs\app_spm\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp80\\htdo...')
+#6 {main}
+CRITICAL - 2022-01-07 11:15:41 --> Cannot access offset of type string on string
+#0 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Data_user->edit_data()
+#1 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_user))
+#2 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp80\htdocs\app_spm\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp80\\htdo...')
+#5 {main}
+CRITICAL - 2022-01-07 11:15:47 --> Cannot access offset of type string on string
+#0 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Data_user->edit_data()
+#1 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_user))
+#2 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp80\htdocs\app_spm\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp80\\htdo...')
+#5 {main}
+CRITICAL - 2022-01-07 11:17:24 --> Only the first byte will be assigned to the string offset
+#0 D:\xampp80\htdocs\app_spm\app\Views\data_user\edit.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Only the first ...', 'D:\\xampp80\\htdo...', 56)
+#1 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\View\View.php(214): include('D:\\xampp80\\htdo...')
+#2 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('data_user/edit', Array, true)
+#4 D:\xampp80\htdocs\app_spm\app\Controllers\Data_user.php(184): view('data_user/edit', Array)
+#5 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Data_user->edit_data()
+#6 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_user))
+#7 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp80\htdocs\app_spm\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp80\\htdo...')
+#10 {main}
+ERROR - 2022-01-07 11:27:47 --> Unknown column 'id' in 'where clause'
+CRITICAL - 2022-01-07 11:27:47 --> Unknown column 'id' in 'where clause'
+#0 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `ad...', 0)
+#1 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ad...')
+#2 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ad...')
+#3 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2213): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ad...', Array, false)
+#4 D:\xampp80\htdocs\app_spm\app\Models\M_data_user.php(241): CodeIgniter\Database\BaseBuilder->delete()
+#5 D:\xampp80\htdocs\app_spm\app\Controllers\Data_user.php(169): App\Models\M_data_user->delete_data('189')
+#6 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Data_user->delete_data()
+#7 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_user))
+#8 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp80\htdocs\app_spm\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp80\\htdo...')
+#11 {main}
+CRITICAL - 2022-01-07 15:20:16 --> Too few arguments to function App\Models\M_report::dropdown_barcode(), 0 passed in D:\xampp80\htdocs\app_spm\app\Controllers\Report.php on line 329 and exactly 3 expected
+#0 D:\xampp80\htdocs\app_spm\app\Controllers\Report.php(329): App\Models\M_report->dropdown_barcode()
+#1 D:\xampp80\htdocs\app_spm\app\Controllers\Report.php(62): App\Controllers\Report->dropdown_barcode()
+#2 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Report->index()
+#3 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+#4 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp80\htdocs\app_spm\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp80\\htdo...')
+#7 {main}
+CRITICAL - 2022-01-07 15:21:02 --> Too few arguments to function App\Models\M_report::dropdown_barcode(), 0 passed in D:\xampp80\htdocs\app_spm\app\Controllers\Report.php on line 329 and exactly 3 expected
+#0 D:\xampp80\htdocs\app_spm\app\Controllers\Report.php(329): App\Models\M_report->dropdown_barcode()
+#1 D:\xampp80\htdocs\app_spm\app\Controllers\Report.php(62): App\Controllers\Report->dropdown_barcode()
+#2 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Report->index()
+#3 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+#4 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp80\htdocs\app_spm\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp80\\htdo...')
+#7 {main}
+CRITICAL - 2022-01-07 15:21:07 --> Too few arguments to function App\Models\M_report::dropdown_barcode(), 0 passed in D:\xampp80\htdocs\app_spm\app\Controllers\Report.php on line 329 and exactly 3 expected
+#0 D:\xampp80\htdocs\app_spm\app\Controllers\Report.php(329): App\Models\M_report->dropdown_barcode()
+#1 D:\xampp80\htdocs\app_spm\app\Controllers\Report.php(62): App\Controllers\Report->dropdown_barcode()
+#2 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Report->index()
+#3 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+#4 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp80\htdocs\app_spm\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp80\\htdo...')
+#7 {main}
+CRITICAL - 2022-01-07 15:33:19 --> Too few arguments to function App\Models\M_report::dropdown_barcode(), 0 passed in D:\xampp80\htdocs\app_spm\app\Controllers\Report.php on line 334 and exactly 3 expected
+#0 D:\xampp80\htdocs\app_spm\app\Controllers\Report.php(334): App\Models\M_report->dropdown_barcode()
+#1 D:\xampp80\htdocs\app_spm\app\Controllers\Report.php(62): App\Controllers\Report->dropdown_barcode()
+#2 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Report->index()
+#3 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+#4 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp80\htdocs\app_spm\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp80\\htdo...')
+#7 {main}
+CRITICAL - 2022-01-07 15:33:23 --> Too few arguments to function App\Models\M_report::dropdown_barcode(), 0 passed in D:\xampp80\htdocs\app_spm\app\Controllers\Report.php on line 334 and exactly 3 expected
+#0 D:\xampp80\htdocs\app_spm\app\Controllers\Report.php(334): App\Models\M_report->dropdown_barcode()
+#1 D:\xampp80\htdocs\app_spm\app\Controllers\Report.php(62): App\Controllers\Report->dropdown_barcode()
+#2 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Report->index()
+#3 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+#4 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp80\htdocs\app_spm\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp80\\htdo...')
+#7 {main}
+ERROR - 2022-01-07 15:59:40 --> Unknown column 'barcode' in 'where clause'
+CRITICAL - 2022-01-07 15:59:40 --> Unknown column 'barcode' in 'where clause'
+#0 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp80\htdocs\app_spm\app\Models\M_report.php(119): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp80\htdocs\app_spm\app\Controllers\Report.php(78): App\Models\M_report->get_data()
+#6 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Report->data_tables()
+#7 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+#8 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp80\htdocs\app_spm\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp80\\htdo...')
+#11 {main}
+ERROR - 2022-01-07 15:59:50 --> Unknown column 'barcode' in 'where clause'
+CRITICAL - 2022-01-07 15:59:50 --> Unknown column 'barcode' in 'where clause'
+#0 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp80\htdocs\app_spm\app\Models\M_report.php(119): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp80\htdocs\app_spm\app\Controllers\Report.php(78): App\Models\M_report->get_data()
+#6 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Report->data_tables()
+#7 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+#8 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp80\htdocs\app_spm\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp80\\htdo...')
+#11 {main}
+ERROR - 2022-01-07 15:59:53 --> Unknown column 'barcode' in 'where clause'
+CRITICAL - 2022-01-07 15:59:53 --> Unknown column 'barcode' in 'where clause'
+#0 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp80\htdocs\app_spm\app\Models\M_report.php(119): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp80\htdocs\app_spm\app\Controllers\Report.php(78): App\Models\M_report->get_data()
+#6 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Report->data_tables()
+#7 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+#8 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp80\htdocs\app_spm\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp80\\htdo...')
+#11 {main}
+CRITICAL - 2022-01-07 17:50:04 --> Attempt to read property "id_main" on null
+#0 D:\xampp80\htdocs\app_spm\app\Models\M_konfig.php(189): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\xampp80\\htdo...', 189)
+#1 D:\xampp80\htdocs\app_spm\app\Controllers\Master_warehouse_area.php(56): App\Models\M_konfig->menu_sidebar()
+#2 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Master_warehouse_area->index()
+#3 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master_warehouse_area))
+#4 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp80\htdocs\app_spm\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp80\\htdo...')
+#7 {main}
+CRITICAL - 2022-01-07 17:50:51 --> Attempt to read property "id_main" on null
+#0 D:\xampp80\htdocs\app_spm\app\Models\M_konfig.php(189): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\xampp80\\htdo...', 189)
+#1 D:\xampp80\htdocs\app_spm\app\Controllers\Master_warehouse_area.php(56): App\Models\M_konfig->menu_sidebar()
+#2 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Master_warehouse_area->index()
+#3 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master_warehouse_area))
+#4 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp80\htdocs\app_spm\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp80\\htdo...')
+#7 {main}
+CRITICAL - 2022-01-07 17:52:05 --> Attempt to read property "id_main" on null
+#0 D:\xampp80\htdocs\app_spm\app\Models\M_konfig.php(189): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\xampp80\\htdo...', 189)
+#1 D:\xampp80\htdocs\app_spm\app\Controllers\Master_warehouse_area.php(56): App\Models\M_konfig->menu_sidebar()
+#2 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Master_warehouse_area->index()
+#3 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master_warehouse_area))
+#4 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp80\htdocs\app_spm\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp80\\htdo...')
+#7 {main}
+CRITICAL - 2022-01-07 19:21:19 --> Undefined variable $pw_code
+#0 D:\xampp80\htdocs\app_spm\app\Views\report\view.php(139): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xampp80\\htdo...', 139)
+#1 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\View\View.php(214): include('D:\\xampp80\\htdo...')
+#2 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('report/view', Array, true)
+#4 D:\xampp80\htdocs\app_spm\app\Controllers\Report.php(301): view('report/view', Array)
+#5 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Report->view_data()
+#6 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+#7 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp80\htdocs\app_spm\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp80\\htdo...')
+#10 {main}
+CRITICAL - 2022-01-07 19:21:27 --> Undefined variable $pw_code
+#0 D:\xampp80\htdocs\app_spm\app\Views\report\view.php(139): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xampp80\\htdo...', 139)
+#1 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\View\View.php(214): include('D:\\xampp80\\htdo...')
+#2 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('report/view', Array, true)
+#4 D:\xampp80\htdocs\app_spm\app\Controllers\Report.php(301): view('report/view', Array)
+#5 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Report->view_data()
+#6 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+#7 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp80\htdocs\app_spm\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp80\\htdo...')
+#10 {main}
+CRITICAL - 2022-01-07 19:22:23 --> Array and string offset access syntax with curly braces is no longer supported
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-01-07 19:26:03 --> Array and string offset access syntax with curly braces is no longer supported
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-01-07 21:03:39 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::countAllResult()
+#0 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Report->downloadXL()
+#1 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+#2 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp80\htdocs\app_spm\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp80\\htdo...')
+#5 {main}
+CRITICAL - 2022-01-07 21:04:16 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::countAllResult()
+#0 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Report->downloadXL()
+#1 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+#2 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp80\htdocs\app_spm\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp80\\htdo...')
+#5 {main}
+CRITICAL - 2022-01-07 21:04:20 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::countAllResult()
+#0 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Report->downloadXL()
+#1 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+#2 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp80\htdocs\app_spm\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp80\\htdo...')
+#5 {main}
+CRITICAL - 2022-01-07 21:05:27 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::countAll()
+#0 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Report->downloadXL()
+#1 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+#2 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp80\htdocs\app_spm\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp80\\htdo...')
+#5 {main}
+CRITICAL - 2022-01-07 21:05:29 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::countAll()
+#0 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Report->downloadXL()
+#1 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+#2 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp80\htdocs\app_spm\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp80\\htdo...')
+#5 {main}
+CRITICAL - 2022-01-07 21:07:19 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::countAllResults()
+#0 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Report->downloadXL()
+#1 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+#2 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp80\htdocs\app_spm\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp80\\htdo...')
+#5 {main}
+CRITICAL - 2022-01-07 21:08:38 --> Call to a member function countXL() on null
+#0 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Report->downloadXL()
+#1 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+#2 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp80\htdocs\app_spm\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp80\\htdo...')
+#5 {main}
+CRITICAL - 2022-01-07 21:08:58 --> Call to a member function getResult() on null
+#0 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Report->downloadXL()
+#1 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+#2 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp80\htdocs\app_spm\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp80\\htdo...')
+#5 {main}
+CRITICAL - 2022-01-07 21:09:01 --> Call to a member function getResult() on null
+#0 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Report->downloadXL()
+#1 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+#2 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp80\htdocs\app_spm\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp80\\htdo...')
+#5 {main}
+CRITICAL - 2022-01-07 21:09:12 --> Call to a member function get() on null
+#0 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Report->downloadXL()
+#1 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+#2 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp80\htdocs\app_spm\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp80\\htdo...')
+#5 {main}
+CRITICAL - 2022-01-07 21:09:14 --> Call to a member function get() on null
+#0 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Report->downloadXL()
+#1 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+#2 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp80\htdocs\app_spm\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp80\\htdo...')
+#5 {main}
+CRITICAL - 2022-01-07 21:20:44 --> You must set the database table to be used with your query.
+#0 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Model.php(717): CodeIgniter\Model->builder()
+#2 D:\xampp80\htdocs\app_spm\app\Controllers\Report.php(191): CodeIgniter\Model->__call('getInfoMat', Array)
+#3 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Report->view_data()
+#4 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+#5 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp80\htdocs\app_spm\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp80\\htdo...')
+#8 {main}
+CRITICAL - 2022-01-07 21:21:05 --> You must set the database table to be used with your query.
+#0 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Model.php(717): CodeIgniter\Model->builder()
+#2 D:\xampp80\htdocs\app_spm\app\Controllers\Report.php(191): CodeIgniter\Model->__call('getInfoMat', Array)
+#3 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Report->view_data()
+#4 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+#5 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp80\htdocs\app_spm\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp80\\htdo...')
+#8 {main}
+CRITICAL - 2022-01-07 21:21:31 --> You must set the database table to be used with your query.
+#0 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Model.php(717): CodeIgniter\Model->builder()
+#2 D:\xampp80\htdocs\app_spm\app\Controllers\Report.php(191): CodeIgniter\Model->__call('getInfoMat', Array)
+#3 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Report->view_data()
+#4 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+#5 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp80\htdocs\app_spm\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp80\\htdo...')
+#8 {main}
+CRITICAL - 2022-01-07 21:21:58 --> You must set the database table to be used with your query.
+#0 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Model.php(717): CodeIgniter\Model->builder()
+#2 D:\xampp80\htdocs\app_spm\app\Controllers\Report.php(191): CodeIgniter\Model->__call('getInfoMat', Array)
+#3 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Report->view_data()
+#4 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+#5 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp80\htdocs\app_spm\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp80\\htdo...')
+#8 {main}
+CRITICAL - 2022-01-07 21:32:40 --> Invalid file: filter.php
+#0 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('filter.php')
+#1 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('filter', Array, true)
+#2 D:\xampp80\htdocs\app_spm\app\Views\report_spm\index.php(36): view('filter')
+#3 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\View\View.php(214): include('D:\\xampp80\\htdo...')
+#4 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('report_spm/inde...', Array, true)
+#6 D:\xampp80\htdocs\app_spm\app\Views\temp_user\content.php(8): view('report_spm/inde...')
+#7 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\View\View.php(214): include('D:\\xampp80\\htdo...')
+#8 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#9 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('temp_user/conte...', Array, true)
+#10 D:\xampp80\htdocs\app_spm\app\Controllers\Report_spm.php(25): view('temp_user/conte...', Array)
+#11 D:\xampp80\htdocs\app_spm\app\Controllers\Report_spm.php(72): App\Controllers\Report_spm->_template(Array)
+#12 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Report_spm->index()
+#13 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report_spm))
+#14 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#15 D:\xampp80\htdocs\app_spm\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#16 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp80\\htdo...')
+#17 {main}
+CRITICAL - 2022-01-07 21:40:21 --> Call to undefined method App\Controllers\Report_spm::dropdown_barcode()
+#0 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Report_spm->index()
+#1 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report_spm))
+#2 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp80\htdocs\app_spm\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp80\\htdo...')
+#5 {main}
+CRITICAL - 2022-01-07 21:40:24 --> Call to undefined method App\Controllers\Report::dropdown_barcode()
+#0 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Report->index()
+#1 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+#2 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp80\htdocs\app_spm\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp80\\htdo...')
+#5 {main}
+CRITICAL - 2022-01-07 21:54:51 --> Invalid file: filter.php
+#0 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('filter.php')
+#1 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('filter', Array, true)
+#2 D:\xampp80\htdocs\app_spm\app\Views\report_spm\index.php(36): view('filter')
+#3 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\View\View.php(214): include('D:\\xampp80\\htdo...')
+#4 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('report_spm/inde...', Array, true)
+#6 D:\xampp80\htdocs\app_spm\app\Controllers\Report_spm.php(69): view('report_spm/inde...', Array)
+#7 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Report_spm->index()
+#8 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report_spm))
+#9 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp80\htdocs\app_spm\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp80\\htdo...')
+#12 {main}
+CRITICAL - 2022-01-07 21:54:57 --> Invalid file: filter.php
+#0 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('filter.php')
+#1 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('filter', Array, true)
+#2 D:\xampp80\htdocs\app_spm\app\Views\report_spm\index.php(36): view('filter')
+#3 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\View\View.php(214): include('D:\\xampp80\\htdo...')
+#4 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('report_spm/inde...', Array, true)
+#6 D:\xampp80\htdocs\app_spm\app\Controllers\Report_spm.php(69): view('report_spm/inde...', Array)
+#7 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Report_spm->index()
+#8 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report_spm))
+#9 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp80\htdocs\app_spm\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp80\\htdo...')
+#12 {main}
+CRITICAL - 2022-01-07 21:55:34 --> Undefined variable $listCode
+#0 D:\xampp80\htdocs\app_spm\app\Views\report_spm\filter.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xampp80\\htdo...', 5)
+#1 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\View\View.php(214): include('D:\\xampp80\\htdo...')
+#2 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('report_spm/filt...', Array, true)
+#4 D:\xampp80\htdocs\app_spm\app\Views\report_spm\index.php(36): view('report_spm/filt...')
+#5 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\View\View.php(214): include('D:\\xampp80\\htdo...')
+#6 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('report_spm/inde...', Array, true)
+#8 D:\xampp80\htdocs\app_spm\app\Controllers\Report_spm.php(69): view('report_spm/inde...', Array)
+#9 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Report_spm->index()
+#10 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report_spm))
+#11 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\xampp80\htdocs\app_spm\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp80\\htdo...')
+#14 {main}
+CRITICAL - 2022-01-07 21:55:42 --> Undefined variable $listCode
+#0 D:\xampp80\htdocs\app_spm\app\Views\report_spm\filter.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xampp80\\htdo...', 5)
+#1 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\View\View.php(214): include('D:\\xampp80\\htdo...')
+#2 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('report_spm/filt...', Array, true)
+#4 D:\xampp80\htdocs\app_spm\app\Views\report_spm\index.php(36): view('report_spm/filt...')
+#5 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\View\View.php(214): include('D:\\xampp80\\htdo...')
+#6 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('report_spm/inde...', Array, true)
+#8 D:\xampp80\htdocs\app_spm\app\Controllers\Report_spm.php(69): view('report_spm/inde...', Array)
+#9 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Report_spm->index()
+#10 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report_spm))
+#11 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\xampp80\htdocs\app_spm\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp80\\htdo...')
+#14 {main}
+CRITICAL - 2022-01-07 21:56:28 --> Undefined property: CodeIgniter\View\View::$db
+#0 D:\xampp80\htdocs\app_spm\app\Views\report_spm\index.php(340): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\xampp80\\htdo...', 340)
+#1 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\View\View.php(214): include('D:\\xampp80\\htdo...')
+#2 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('report_spm/inde...', Array, true)
+#4 D:\xampp80\htdocs\app_spm\app\Controllers\Report_spm.php(69): view('report_spm/inde...', Array)
+#5 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Report_spm->index()
+#6 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report_spm))
+#7 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp80\htdocs\app_spm\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp80\\htdo...')
+#10 {main}
+CRITICAL - 2022-01-07 22:04:47 --> Undefined property: CodeIgniter\View\View::$mdl
+#0 D:\xampp80\htdocs\app_spm\app\Views\report_spm\view.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\xampp80\\htdo...', 25)
+#1 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\View\View.php(214): include('D:\\xampp80\\htdo...')
+#2 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('report_spm/view', Array, true)
+#4 D:\xampp80\htdocs\app_spm\app\Controllers\Report_spm.php(286): view('report_spm/view', Array)
+#5 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Report_spm->view_data()
+#6 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report_spm))
+#7 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp80\htdocs\app_spm\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp80\\htdo...')
+#10 {main}
+CRITICAL - 2022-01-07 22:34:51 --> Undefined variable $ttl_mat
+#0 D:\xampp80\htdocs\app_spm\app\Views\report_spm\downloadXL.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xampp80\\htdo...', 20)
+#1 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\View\View.php(214): include('D:\\xampp80\\htdo...')
+#2 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('report_spm/down...', Array, true)
+#4 D:\xampp80\htdocs\app_spm\app\Controllers\Report_spm.php(294): view('report_spm/down...', Array)
+#5 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Report_spm->downloadXL()
+#6 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report_spm))
+#7 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp80\htdocs\app_spm\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp80\\htdo...')
+#10 {main}

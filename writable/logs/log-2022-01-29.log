@@ -1,0 +1,607 @@
+CRITICAL - 2022-01-29 09:54:21 --> Undefined variable $uri
+#0 D:\xampp80\htdocs\app_dev\app\Views\super\menu.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xampp80\\htdo...', 67)
+#1 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\View\View.php(214): include('D:\\xampp80\\htdo...')
+#2 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('super/menu', Array, true)
+#4 D:\xampp80\htdocs\app_dev\app\Controllers\Super\Super.php(171): view('super/menu', Array)
+#5 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Super\Super->menu('1')
+#6 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Super\Super))
+#7 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp80\htdocs\app_dev\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-29 09:54:28 --> Undefined variable $uri
+#0 D:\xampp80\htdocs\app_dev\app\Views\super\menu.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xampp80\\htdo...', 67)
+#1 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\View\View.php(214): include('D:\\xampp80\\htdo...')
+#2 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('super/menu', Array, true)
+#4 D:\xampp80\htdocs\app_dev\app\Controllers\Super\Super.php(171): view('super/menu', Array)
+#5 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Super\Super->menu('1')
+#6 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Super\Super))
+#7 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp80\htdocs\app_dev\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-29 09:58:32 --> Undefined variable $konfig
+#0 D:\xampp80\htdocs\app_dev\app\Views\temp_back\footer.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xampp80\\htdo...', 6)
+#1 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\View\View.php(214): include('D:\\xampp80\\htdo...')
+#2 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\View\View.php(432): CodeIgniter\View\View->render('temp_back/foote...', NULL, true)
+#4 D:\xampp80\htdocs\app_dev\app\Views\temp_back\content.php(14): CodeIgniter\View\View->include('temp_back/foote...')
+#5 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\View\View.php(214): include('D:\\xampp80\\htdo...')
+#6 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('temp_back/conte...', Array, true)
+#8 D:\xampp80\htdocs\app_dev\app\Controllers\Super\Super.php(26): view('temp_back/conte...', Array)
+#9 D:\xampp80\htdocs\app_dev\app\Controllers\Super\Super.php(175): App\Controllers\Super\Super->_template(Array)
+#10 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Super\Super->menu('1')
+#11 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Super\Super))
+#12 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 D:\xampp80\htdocs\app_dev\index.php(38): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2022-01-29 09:59:30 --> Undefined variable $konfig
+#0 D:\xampp80\htdocs\app_dev\app\Views\temp_back\footer.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xampp80\\htdo...', 6)
+#1 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\View\View.php(214): include('D:\\xampp80\\htdo...')
+#2 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\View\View.php(432): CodeIgniter\View\View->render('temp_back/foote...', NULL, true)
+#4 D:\xampp80\htdocs\app_dev\app\Views\temp_back\content.php(14): CodeIgniter\View\View->include('temp_back/foote...')
+#5 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\View\View.php(214): include('D:\\xampp80\\htdo...')
+#6 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('temp_back/conte...', Array, true)
+#8 D:\xampp80\htdocs\app_dev\app\Controllers\Super\Super.php(26): view('temp_back/conte...', Array)
+#9 D:\xampp80\htdocs\app_dev\app\Controllers\Super\Super.php(175): App\Controllers\Super\Super->_template(Array)
+#10 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Super\Super->menu('1')
+#11 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Super\Super))
+#12 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 D:\xampp80\htdocs\app_dev\index.php(38): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2022-01-29 10:01:56 --> Invalid file: edit_menu.php
+#0 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('edit_menu.php')
+#1 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('edit_menu', Array, true)
+#2 D:\xampp80\htdocs\app_dev\app\Controllers\Super\Super.php(192): view('edit_menu', Array)
+#3 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Super\Super->edit_Menu()
+#4 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Super\Super))
+#5 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp80\htdocs\app_dev\index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-29 10:01:58 --> Undefined property: App\Controllers\Super\Super::$input
+#0 D:\xampp80\htdocs\app_dev\app\Controllers\Super\Super.php(181): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\xampp80\\htdo...', 181)
+#1 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Super\Super->input_Menu()
+#2 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Super\Super))
+#3 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp80\htdocs\app_dev\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-29 10:03:41 --> Invalid file: edit_menu.php
+#0 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('edit_menu.php')
+#1 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('edit_menu', Array, true)
+#2 D:\xampp80\htdocs\app_dev\app\Controllers\Super\Super.php(190): view('edit_menu', Array)
+#3 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Super\Super->edit_Menu()
+#4 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Super\Super))
+#5 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp80\htdocs\app_dev\index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-29 10:03:52 --> Undefined property: App\Controllers\Super\Super::$input
+#0 D:\xampp80\htdocs\app_dev\app\Controllers\Super\Super.php(179): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\xampp80\\htdo...', 179)
+#1 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Super\Super->input_Menu()
+#2 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Super\Super))
+#3 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp80\htdocs\app_dev\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-29 10:04:55 --> Invalid file: add_menu.php
+#0 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('add_menu.php')
+#1 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('add_menu', Array, true)
+#2 D:\xampp80\htdocs\app_dev\app\Controllers\Super\Super.php(180): view('add_menu', Array)
+#3 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Super\Super->input_Menu()
+#4 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Super\Super))
+#5 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp80\htdocs\app_dev\index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-29 10:05:22 --> Undefined property: CodeIgniter\View\View::$db
+#0 D:\xampp80\htdocs\app_dev\app\Views\super\add_menu.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\xampp80\\htdo...', 23)
+#1 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\View\View.php(214): include('D:\\xampp80\\htdo...')
+#2 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('super/add_menu', Array, true)
+#4 D:\xampp80\htdocs\app_dev\app\Controllers\Super\Super.php(180): view('super/add_menu', Array)
+#5 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Super\Super->input_Menu()
+#6 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Super\Super))
+#7 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp80\htdocs\app_dev\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-29 10:06:37 --> Undefined property: CodeIgniter\View\View::$db
+#0 D:\xampp80\htdocs\app_dev\app\Views\super\add_menu.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\xampp80\\htdo...', 23)
+#1 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\View\View.php(214): include('D:\\xampp80\\htdo...')
+#2 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('super/add_menu', Array, true)
+#4 D:\xampp80\htdocs\app_dev\app\Controllers\Super\Super.php(180): view('super/add_menu', Array)
+#5 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Super\Super->input_Menu()
+#6 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Super\Super))
+#7 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp80\htdocs\app_dev\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-29 10:08:15 --> Class "App\Controllers\App\Config\Database" not found
+#0 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#1 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp80\htdocs\app_dev\index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-29 10:08:30 --> Cannot declare class Config\Database, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-01-29 10:09:17 --> Cannot declare class Config\Database, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-01-29 10:13:36 --> Undefined property: CodeIgniter\View\View::$db
+#0 D:\xampp80\htdocs\app_dev\app\Views\super\edit_menu.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\xampp80\\htdo...', 12)
+#1 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\View\View.php(214): include('D:\\xampp80\\htdo...')
+#2 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('super/edit_menu', Array, true)
+#4 D:\xampp80\htdocs\app_dev\app\Controllers\Super\Super.php(191): view('super/edit_menu', Array)
+#5 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Super\Super->edit_Menu()
+#6 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Super\Super))
+#7 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp80\htdocs\app_dev\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-29 10:18:47 --> Undefined property: CodeIgniter\View\View::$db
+#0 D:\xampp80\htdocs\app_dev\app\Views\super\edit_menu.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\xampp80\\htdo...', 43)
+#1 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\View\View.php(214): include('D:\\xampp80\\htdo...')
+#2 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('super/edit_menu', Array, true)
+#4 D:\xampp80\htdocs\app_dev\app\Controllers\Super\Super.php(196): view('super/edit_menu', Array)
+#5 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Super\Super->edit_Menu()
+#6 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Super\Super))
+#7 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp80\htdocs\app_dev\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-29 11:04:02 --> Array to string conversion
+#0 D:\xampp80\htdocs\app_dev\app\Controllers\Super\Super.php(206): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'D:\\xampp80\\htdo...', 206)
+#1 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Super\Super->delete_Menu()
+#2 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Super\Super))
+#3 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp80\htdocs\app_dev\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-29 11:10:48 --> Array to string conversion
+#0 D:\xampp80\htdocs\app_dev\app\Controllers\Super\Super.php(206): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'D:\\xampp80\\htdo...', 206)
+#1 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Super\Super->delete_Menu()
+#2 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Super\Super))
+#3 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp80\htdocs\app_dev\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-29 11:30:00 --> Array to string conversion
+#0 D:\xampp80\htdocs\app_dev\app\Controllers\Super\Super.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'D:\\xampp80\\htdo...', 86)
+#1 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Super\Super->delete_UG()
+#2 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Super\Super))
+#3 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp80\htdocs\app_dev\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-29 11:33:15 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::countAllResult()
+#0 D:\xampp80\htdocs\app_dev\app\Controllers\Super\Super.php(86): App\Models\M_super->delete_UG()
+#1 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Super\Super->delete_UG()
+#2 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Super\Super))
+#3 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp80\htdocs\app_dev\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-29 11:36:16 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::countAllResult()
+#0 D:\xampp80\htdocs\app_dev\app\Controllers\Super\Super.php(86): App\Models\M_super->delete_UG()
+#1 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Super\Super->delete_UG()
+#2 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Super\Super))
+#3 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp80\htdocs\app_dev\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-29 11:59:58 --> You must set the database table to be used with your query.
+#0 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\Model.php(717): CodeIgniter\Model->builder()
+#2 D:\xampp80\htdocs\app_dev\app\Controllers\Super\Super.php(226): CodeIgniter\Model->__call('get_data_user', Array)
+#3 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Super\Super->data_tables_user()
+#4 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Super\Super))
+#5 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp80\htdocs\app_dev\index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-29 12:08:17 --> CodeIgniter\Database\BaseBuilder::orderBy(): Argument #1 ($orderBy) must be of type string, null given, called in D:\xampp80\htdocs\app_dev\app\Models\M_super.php on line 366
+#0 D:\xampp80\htdocs\app_dev\app\Models\M_super.php(366): CodeIgniter\Database\BaseBuilder->orderBy(NULL, 'desc')
+#1 D:\xampp80\htdocs\app_dev\app\Models\M_super.php(334): App\Models\M_super->_get_datatables_user()
+#2 D:\xampp80\htdocs\app_dev\app\Controllers\Super\Super.php(226): App\Models\M_super->get_data_user()
+#3 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Super\Super->data_tables_user()
+#4 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Super\Super))
+#5 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp80\htdocs\app_dev\index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-29 12:09:53 --> CodeIgniter\Database\BaseBuilder::orderBy(): Argument #1 ($orderBy) must be of type string, null given, called in D:\xampp80\htdocs\app_dev\app\Models\M_super.php on line 366
+#0 D:\xampp80\htdocs\app_dev\app\Models\M_super.php(366): CodeIgniter\Database\BaseBuilder->orderBy(NULL, 'desc')
+#1 D:\xampp80\htdocs\app_dev\app\Models\M_super.php(334): App\Models\M_super->_get_datatables_user()
+#2 D:\xampp80\htdocs\app_dev\app\Controllers\Super\Super.php(226): App\Models\M_super->get_data_user()
+#3 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Super\Super->data_tables_user()
+#4 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Super\Super))
+#5 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp80\htdocs\app_dev\index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-29 12:11:06 --> CodeIgniter\Database\BaseBuilder::orderBy(): Argument #1 ($orderBy) must be of type string, null given, called in D:\xampp80\htdocs\app_dev\app\Models\M_super.php on line 366
+#0 D:\xampp80\htdocs\app_dev\app\Models\M_super.php(366): CodeIgniter\Database\BaseBuilder->orderBy(NULL, 'desc')
+#1 D:\xampp80\htdocs\app_dev\app\Models\M_super.php(334): App\Models\M_super->_get_datatables_user()
+#2 D:\xampp80\htdocs\app_dev\app\Controllers\Super\Super.php(226): App\Models\M_super->get_data_user()
+#3 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Super\Super->data_tables_user()
+#4 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Super\Super))
+#5 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp80\htdocs\app_dev\index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-29 12:11:13 --> CodeIgniter\Database\BaseBuilder::orderBy(): Argument #1 ($orderBy) must be of type string, null given, called in D:\xampp80\htdocs\app_dev\app\Models\M_super.php on line 366
+#0 D:\xampp80\htdocs\app_dev\app\Models\M_super.php(366): CodeIgniter\Database\BaseBuilder->orderBy(NULL, 'desc')
+#1 D:\xampp80\htdocs\app_dev\app\Models\M_super.php(334): App\Models\M_super->_get_datatables_user()
+#2 D:\xampp80\htdocs\app_dev\app\Controllers\Super\Super.php(226): App\Models\M_super->get_data_user()
+#3 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Super\Super->data_tables_user()
+#4 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Super\Super))
+#5 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp80\htdocs\app_dev\index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-29 12:12:16 --> Undefined array key 1
+#0 D:\xampp80\htdocs\app_dev\app\Models\M_super.php(366): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp80\\htdo...', 366)
+#1 D:\xampp80\htdocs\app_dev\app\Models\M_super.php(334): App\Models\M_super->_get_datatables_user()
+#2 D:\xampp80\htdocs\app_dev\app\Controllers\Super\Super.php(226): App\Models\M_super->get_data_user()
+#3 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Super\Super->data_tables_user()
+#4 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Super\Super))
+#5 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp80\htdocs\app_dev\index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-29 12:13:21 --> Undefined array key 1
+#0 D:\xampp80\htdocs\app_dev\app\Models\M_super.php(366): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp80\\htdo...', 366)
+#1 D:\xampp80\htdocs\app_dev\app\Models\M_super.php(334): App\Models\M_super->_get_datatables_user()
+#2 D:\xampp80\htdocs\app_dev\app\Controllers\Super\Super.php(226): App\Models\M_super->get_data_user()
+#3 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Super\Super->data_tables_user()
+#4 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Super\Super))
+#5 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp80\htdocs\app_dev\index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-29 12:34:19 --> Undefined property: CodeIgniter\View\View::$db
+#0 D:\xampp80\htdocs\app_dev\app\Views\super\edit_data_user.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\xampp80\\htdo...', 29)
+#1 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\View\View.php(214): include('D:\\xampp80\\htdo...')
+#2 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('super/edit_data...', Array, true)
+#4 D:\xampp80\htdocs\app_dev\app\Controllers\Super\Super.php(280): view('super/edit_data...', Array)
+#5 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Super\Super->edit_User()
+#6 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Super\Super))
+#7 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp80\htdocs\app_dev\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-29 12:37:53 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResult()
+#0 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Super\Super->edit_User()
+#1 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Super\Super))
+#2 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp80\htdocs\app_dev\index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-29 12:38:01 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResult()
+#0 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Super\Super->edit_User()
+#1 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Super\Super))
+#2 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp80\htdocs\app_dev\index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-29 12:39:02 --> Trying to access array offset on value of type null
+#0 D:\xampp80\htdocs\app_dev\app\Models\M_super.php(441): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'D:\\xampp80\\htdo...', 441)
+#1 D:\xampp80\htdocs\app_dev\app\Controllers\Super\Super.php(285): App\Models\M_super->update_User()
+#2 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Super\Super->update_User()
+#3 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Super\Super))
+#4 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp80\htdocs\app_dev\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-29 12:40:34 --> Trying to access array offset on value of type null
+#0 D:\xampp80\htdocs\app_dev\app\Models\M_super.php(441): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'D:\\xampp80\\htdo...', 441)
+#1 D:\xampp80\htdocs\app_dev\app\Controllers\Super\Super.php(285): App\Models\M_super->update_User()
+#2 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Super\Super->update_User()
+#3 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Super\Super))
+#4 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp80\htdocs\app_dev\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-29 12:41:45 --> Trying to access array offset on value of type null
+#0 D:\xampp80\htdocs\app_dev\app\Models\M_super.php(441): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'D:\\xampp80\\htdo...', 441)
+#1 D:\xampp80\htdocs\app_dev\app\Controllers\Super\Super.php(285): App\Models\M_super->update_User()
+#2 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Super\Super->update_User()
+#3 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Super\Super))
+#4 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp80\htdocs\app_dev\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-29 12:44:51 --> Trying to access array offset on value of type null
+#0 D:\xampp80\htdocs\app_dev\app\Models\M_super.php(448): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'D:\\xampp80\\htdo...', 448)
+#1 D:\xampp80\htdocs\app_dev\app\Controllers\Super\Super.php(285): App\Models\M_super->update_User()
+#2 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Super\Super->update_User()
+#3 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Super\Super))
+#4 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp80\htdocs\app_dev\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-29 13:41:15 --> Undefined property: CodeIgniter\View\View::$db
+#0 D:\xampp80\htdocs\app_dev\app\Views\super\add_data_user.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\xampp80\\htdo...', 7)
+#1 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\View\View.php(214): include('D:\\xampp80\\htdo...')
+#2 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('super/add_data_...', Array, true)
+#4 D:\xampp80\htdocs\app_dev\app\Controllers\Super\Super.php(270): view('super/add_data_...')
+#5 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Super\Super->input_User()
+#6 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Super\Super))
+#7 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp80\htdocs\app_dev\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-29 14:20:47 --> Required parameter $levelname follows optional parameter $nama
+#0 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(264): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Required parame...', 'D:\\xampp80\\htdo...', 24)
+#1 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(264): include_once()
+#2 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp80\\htdo...')
+#3 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\M_ko...')
+#4 D:\xampp80\htdocs\app_dev\app\Filters\Auth.php(36): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\M_ko...')
+#5 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\Filters\Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#6 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('super/data_log', 'before')
+#7 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp80\htdocs\app_dev\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-01-29 14:30:27 --> Unknown column 'nama_user' in 'order clause'
+CRITICAL - 2022-01-29 14:30:27 --> Unknown column 'nama_user' in 'order clause'
+#0 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp80\htdocs\app_dev\app\Models\M_super.php(491): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp80\htdocs\app_dev\app\Controllers\Super\Super.php(312): App\Models\M_super->get_data_log()
+#6 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Super\Super->data_tables_log()
+#7 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Super\Super))
+#8 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp80\htdocs\app_dev\index.php(38): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-01-29 14:31:06 --> Unknown column 'nama_user' in 'order clause'
+CRITICAL - 2022-01-29 14:31:06 --> Unknown column 'nama_user' in 'order clause'
+#0 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp80\htdocs\app_dev\app\Models\M_super.php(491): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp80\htdocs\app_dev\app\Controllers\Super\Super.php(312): App\Models\M_super->get_data_log()
+#6 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Super\Super->data_tables_log()
+#7 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Super\Super))
+#8 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp80\htdocs\app_dev\index.php(38): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-01-29 14:31:14 --> Unknown column 'nama_user' in 'order clause'
+CRITICAL - 2022-01-29 14:31:14 --> Unknown column 'nama_user' in 'order clause'
+#0 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp80\htdocs\app_dev\app\Models\M_super.php(491): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp80\htdocs\app_dev\app\Controllers\Super\Super.php(312): App\Models\M_super->get_data_log()
+#6 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Super\Super->data_tables_log()
+#7 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Super\Super))
+#8 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp80\htdocs\app_dev\index.php(38): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-01-29 15:06:45 --> Undefined array key 6
+#0 D:\xampp80\htdocs\app_dev\app\Models\M_super.php(523): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp80\\htdo...', 523)
+#1 D:\xampp80\htdocs\app_dev\app\Models\M_super.php(488): App\Models\M_super->_get_datatables_log()
+#2 D:\xampp80\htdocs\app_dev\app\Controllers\Super\Super.php(312): App\Models\M_super->get_data_log()
+#3 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Super\Super->data_tables_log()
+#4 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Super\Super))
+#5 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp80\htdocs\app_dev\index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-29 15:06:54 --> Undefined array key 5
+#0 D:\xampp80\htdocs\app_dev\app\Models\M_super.php(523): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp80\\htdo...', 523)
+#1 D:\xampp80\htdocs\app_dev\app\Models\M_super.php(488): App\Models\M_super->_get_datatables_log()
+#2 D:\xampp80\htdocs\app_dev\app\Controllers\Super\Super.php(312): App\Models\M_super->get_data_log()
+#3 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Super\Super->data_tables_log()
+#4 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Super\Super))
+#5 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp80\htdocs\app_dev\index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-29 15:46:00 --> Undefined array key 6
+#0 D:\xampp80\htdocs\app_dev\app\Models\M_super.php(523): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp80\\htdo...', 523)
+#1 D:\xampp80\htdocs\app_dev\app\Models\M_super.php(488): App\Models\M_super->_get_datatables_log()
+#2 D:\xampp80\htdocs\app_dev\app\Controllers\Super\Super.php(312): App\Models\M_super->get_data_log()
+#3 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Super\Super->data_tables_log()
+#4 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Super\Super))
+#5 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp80\htdocs\app_dev\index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-29 15:46:16 --> Undefined array key 7
+#0 D:\xampp80\htdocs\app_dev\app\Models\M_super.php(523): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp80\\htdo...', 523)
+#1 D:\xampp80\htdocs\app_dev\app\Models\M_super.php(488): App\Models\M_super->_get_datatables_log()
+#2 D:\xampp80\htdocs\app_dev\app\Controllers\Super\Super.php(312): App\Models\M_super->get_data_log()
+#3 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Super\Super->data_tables_log()
+#4 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Super\Super))
+#5 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp80\htdocs\app_dev\index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-29 15:56:59 --> Undefined property: CodeIgniter\View\View::$m_konfig
+#0 D:\xampp80\htdocs\app_dev\app\Views\super\config_app.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\xampp80\\htdo...', 40)
+#1 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\View\View.php(214): include('D:\\xampp80\\htdo...')
+#2 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('super/config_ap...', Array, true)
+#4 D:\xampp80\htdocs\app_dev\app\Controllers\Super\Super.php(363): view('super/config_ap...', Array)
+#5 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Super\Super->config_app()
+#6 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Super\Super))
+#7 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp80\htdocs\app_dev\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-29 15:57:04 --> Undefined property: CodeIgniter\View\View::$m_konfig
+#0 D:\xampp80\htdocs\app_dev\app\Views\super\config_app.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\xampp80\\htdo...', 40)
+#1 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\View\View.php(214): include('D:\\xampp80\\htdo...')
+#2 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('super/config_ap...', Array, true)
+#4 D:\xampp80\htdocs\app_dev\app\Controllers\Super\Super.php(363): view('super/config_ap...', Array)
+#5 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Super\Super->config_app()
+#6 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Super\Super))
+#7 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp80\htdocs\app_dev\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-29 16:09:22 --> You must set the database table to be used with your query.
+#0 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\Model.php(717): CodeIgniter\Model->builder()
+#2 D:\xampp80\htdocs\app_dev\app\Controllers\Super\Super.php(371): CodeIgniter\Model->__call('update_Config', Array)
+#3 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Super\Super->update_Config()
+#4 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Super\Super))
+#5 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp80\htdocs\app_dev\index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-29 16:15:22 --> Trying to access array offset on value of type null
+#0 D:\xampp80\htdocs\app_dev\app\Models\M_super.php(565): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'D:\\xampp80\\htdo...', 565)
+#1 D:\xampp80\htdocs\app_dev\app\Controllers\Super\Super.php(371): App\Models\M_super->update_Config()
+#2 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Super\Super->update_Config()
+#3 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Super\Super))
+#4 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp80\htdocs\app_dev\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-29 17:21:53 --> You must set the database table to be used with your query.
+#0 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\Model.php(717): CodeIgniter\Model->builder()
+#2 D:\xampp80\htdocs\app_dev\app\Controllers\Profile.php(52): CodeIgniter\Model->__call('warehouseAreaUs...', Array)
+#3 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Profile->index()
+#4 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+#5 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp80\htdocs\app_dev\index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-29 17:23:05 --> You must set the database table to be used with your query.
+#0 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\Model.php(717): CodeIgniter\Model->builder()
+#2 D:\xampp80\htdocs\app_dev\app\Controllers\Profile.php(52): CodeIgniter\Model->__call('warehouseAreaUs...', Array)
+#3 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Profile->index()
+#4 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+#5 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp80\htdocs\app_dev\index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-29 17:50:55 --> Too few arguments to function App\Models\M_konfig::dataProfile(), 1 passed in D:\xampp80\htdocs\app_dev\app\Models\M_konfig.php on line 100 and exactly 2 expected
+#0 D:\xampp80\htdocs\app_dev\app\Models\M_konfig.php(100): App\Models\M_konfig->dataProfile('2')
+#1 D:\xampp80\htdocs\app_dev\app\Controllers\Super\Super.php(359): App\Models\M_konfig->konfig_app()
+#2 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Super\Super->config_app()
+#3 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Super\Super))
+#4 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp80\htdocs\app_dev\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-29 18:07:47 --> move_uploaded_file(theme/images/user//fileadmin_29012022180747.png): Failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'move_uploaded_f...', 'D:\\xampp80\\htdo...', 137)
+#1 D:\xampp80\htdocs\app_dev\app\Models\M_reff.php(137): move_uploaded_file('D:\\xampp80\\tmp\\...', 'theme/images/us...')
+#2 D:\xampp80\htdocs\app_dev\app\Models\M_profile.php(76): App\Models\M_reff->upload_file('profileimg', 'theme/images/us...', 'fileadmin', 'JPG,JPEG,PNG', '1000000', 'fileadmin_08092...')
+#3 D:\xampp80\htdocs\app_dev\app\Controllers\Uprofile\Uprofile.php(42): App\Models\M_profile->update_Profile()
+#4 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Uprofile\Uprofile->update_Profile()
+#5 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Uprofile\Uprofile))
+#6 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp80\htdocs\app_dev\index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-29 18:12:27 --> Request URI segment is out of range: 1
+#0 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\HTTP\URI.php(529): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(1)
+#1 D:\xampp80\htdocs\app_dev\app\Models\M_konfig.php(121): CodeIgniter\HTTP\URI->getSegment(1)
+#2 D:\xampp80\htdocs\app_dev\app\Models\M_konfig.php(105): App\Models\M_konfig->menusidebar()
+#3 D:\xampp80\htdocs\app_dev\app\Controllers\Auth\Auth.php(31): App\Models\M_konfig->konfig_app()
+#4 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Auth\Auth->index()
+#5 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Auth))
+#6 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp80\htdocs\app_dev\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp80\\htdo...')
+#9 {main}
+CRITICAL - 2022-01-29 18:14:29 --> Request URI segment is out of range: 1
+#0 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\HTTP\URI.php(529): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(1)
+#1 D:\xampp80\htdocs\app_dev\app\Models\M_konfig.php(121): CodeIgniter\HTTP\URI->getSegment(1)
+#2 D:\xampp80\htdocs\app_dev\app\Models\M_konfig.php(105): App\Models\M_konfig->menusidebar()
+#3 D:\xampp80\htdocs\app_dev\app\Controllers\Auth\Auth.php(31): App\Models\M_konfig->konfig_app()
+#4 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Auth\Auth->index()
+#5 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Auth))
+#6 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp80\htdocs\app_dev\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp80\\htdo...')
+#9 {main}
+CRITICAL - 2022-01-29 18:14:42 --> Request URI segment is out of range: 1
+#0 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\HTTP\URI.php(529): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(1)
+#1 D:\xampp80\htdocs\app_dev\app\Models\M_konfig.php(121): CodeIgniter\HTTP\URI->getSegment(1)
+#2 D:\xampp80\htdocs\app_dev\app\Models\M_konfig.php(105): App\Models\M_konfig->menusidebar()
+#3 D:\xampp80\htdocs\app_dev\app\Controllers\Auth\Auth.php(31): App\Models\M_konfig->konfig_app()
+#4 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Auth\Auth->index()
+#5 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Auth))
+#6 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp80\htdocs\app_dev\index.php(38): CodeIgniter\CodeIgniter->run()
+#8 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp80\\htdo...')
+#9 {main}
+CRITICAL - 2022-01-29 18:15:42 --> Request URI segment is out of range: 1
+#0 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\HTTP\URI.php(529): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(1)
+#1 D:\xampp80\htdocs\app_dev\app\Models\M_konfig.php(121): CodeIgniter\HTTP\URI->getSegment(1)
+#2 D:\xampp80\htdocs\app_dev\app\Models\M_konfig.php(105): App\Models\M_konfig->menusidebar()
+#3 D:\xampp80\htdocs\app_dev\app\Controllers\Auth\Auth.php(31): App\Models\M_konfig->konfig_app()
+#4 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Auth\Auth->index()
+#5 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Auth))
+#6 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp80\htdocs\app_dev\index.php(38): CodeIgniter\CodeIgniter->run()
+#8 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp80\\htdo...')
+#9 {main}
+CRITICAL - 2022-01-29 18:15:43 --> Request URI segment is out of range: 1
+#0 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\HTTP\URI.php(529): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(1)
+#1 D:\xampp80\htdocs\app_dev\app\Models\M_konfig.php(121): CodeIgniter\HTTP\URI->getSegment(1)
+#2 D:\xampp80\htdocs\app_dev\app\Models\M_konfig.php(105): App\Models\M_konfig->menusidebar()
+#3 D:\xampp80\htdocs\app_dev\app\Controllers\Auth\Auth.php(31): App\Models\M_konfig->konfig_app()
+#4 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Auth\Auth->index()
+#5 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Auth))
+#6 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp80\htdocs\app_dev\index.php(38): CodeIgniter\CodeIgniter->run()
+#8 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp80\\htdo...')
+#9 {main}
+CRITICAL - 2022-01-29 18:15:44 --> Request URI segment is out of range: 1
+#0 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\HTTP\URI.php(529): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(1)
+#1 D:\xampp80\htdocs\app_dev\app\Models\M_konfig.php(121): CodeIgniter\HTTP\URI->getSegment(1)
+#2 D:\xampp80\htdocs\app_dev\app\Models\M_konfig.php(105): App\Models\M_konfig->menusidebar()
+#3 D:\xampp80\htdocs\app_dev\app\Controllers\Auth\Auth.php(31): App\Models\M_konfig->konfig_app()
+#4 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Auth\Auth->index()
+#5 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Auth))
+#6 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp80\htdocs\app_dev\index.php(38): CodeIgniter\CodeIgniter->run()
+#8 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp80\\htdo...')
+#9 {main}
+CRITICAL - 2022-01-29 18:15:45 --> Request URI segment is out of range: 1
+#0 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\HTTP\URI.php(529): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(1)
+#1 D:\xampp80\htdocs\app_dev\app\Models\M_konfig.php(121): CodeIgniter\HTTP\URI->getSegment(1)
+#2 D:\xampp80\htdocs\app_dev\app\Models\M_konfig.php(105): App\Models\M_konfig->menusidebar()
+#3 D:\xampp80\htdocs\app_dev\app\Controllers\Auth\Auth.php(31): App\Models\M_konfig->konfig_app()
+#4 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Auth\Auth->index()
+#5 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Auth))
+#6 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp80\htdocs\app_dev\index.php(38): CodeIgniter\CodeIgniter->run()
+#8 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp80\\htdo...')
+#9 {main}
+CRITICAL - 2022-01-29 18:15:45 --> Request URI segment is out of range: 1
+#0 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\HTTP\URI.php(529): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(1)
+#1 D:\xampp80\htdocs\app_dev\app\Models\M_konfig.php(121): CodeIgniter\HTTP\URI->getSegment(1)
+#2 D:\xampp80\htdocs\app_dev\app\Models\M_konfig.php(105): App\Models\M_konfig->menusidebar()
+#3 D:\xampp80\htdocs\app_dev\app\Controllers\Auth\Auth.php(31): App\Models\M_konfig->konfig_app()
+#4 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Auth\Auth->index()
+#5 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Auth))
+#6 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp80\htdocs\app_dev\index.php(38): CodeIgniter\CodeIgniter->run()
+#8 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp80\\htdo...')
+#9 {main}
+CRITICAL - 2022-01-29 18:15:49 --> Request URI segment is out of range: 1
+#0 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\HTTP\URI.php(529): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(1)
+#1 D:\xampp80\htdocs\app_dev\app\Models\M_konfig.php(121): CodeIgniter\HTTP\URI->getSegment(1)
+#2 D:\xampp80\htdocs\app_dev\app\Models\M_konfig.php(105): App\Models\M_konfig->menusidebar()
+#3 D:\xampp80\htdocs\app_dev\app\Controllers\Auth\Auth.php(31): App\Models\M_konfig->konfig_app()
+#4 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Auth\Auth->index()
+#5 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Auth))
+#6 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp80\htdocs\app_dev\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-29 18:19:52 --> Request URI segment is out of range: 1
+#0 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\HTTP\URI.php(529): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(1)
+#1 D:\xampp80\htdocs\app_dev\app\Models\M_konfig.php(121): CodeIgniter\HTTP\URI->getSegment(1)
+#2 D:\xampp80\htdocs\app_dev\app\Models\M_konfig.php(105): App\Models\M_konfig->menusidebar()
+#3 D:\xampp80\htdocs\app_dev\app\Controllers\Auth\Auth.php(31): App\Models\M_konfig->konfig_app()
+#4 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Auth\Auth->index()
+#5 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Auth))
+#6 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp80\htdocs\app_dev\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp80\\htdo...')
+#9 {main}
+CRITICAL - 2022-01-29 18:20:05 --> Request URI segment is out of range: 1
+#0 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\HTTP\URI.php(529): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(1)
+#1 D:\xampp80\htdocs\app_dev\app\Models\M_konfig.php(121): CodeIgniter\HTTP\URI->getSegment(1)
+#2 D:\xampp80\htdocs\app_dev\app\Models\M_konfig.php(105): App\Models\M_konfig->menusidebar()
+#3 D:\xampp80\htdocs\app_dev\app\Controllers\Auth\Auth.php(31): App\Models\M_konfig->konfig_app()
+#4 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Auth\Auth->index()
+#5 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Auth))
+#6 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp80\htdocs\app_dev\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp80\\htdo...')
+#9 {main}
+CRITICAL - 2022-01-29 18:20:40 --> Request URI segment is out of range: 1
+#0 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\HTTP\URI.php(529): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(1)
+#1 D:\xampp80\htdocs\app_dev\app\Models\M_konfig.php(121): CodeIgniter\HTTP\URI->getSegment(1)
+#2 D:\xampp80\htdocs\app_dev\app\Models\M_konfig.php(105): App\Models\M_konfig->menusidebar()
+#3 D:\xampp80\htdocs\app_dev\app\Controllers\Auth\Auth.php(31): App\Models\M_konfig->konfig_app()
+#4 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Auth\Auth->index()
+#5 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Auth))
+#6 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp80\htdocs\app_dev\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp80\\htdo...')
+#9 {main}

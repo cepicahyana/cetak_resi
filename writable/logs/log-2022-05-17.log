@@ -1,0 +1,113 @@
+ERROR - 2022-05-17 14:31:39 --> Error connecting to the database: Unknown database 'db_bukumenu'
+CRITICAL - 2022-05-17 14:31:39 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'db_bukumenu'
+#0 D:\xampp80\htdocs\app_digitalmenu\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp80\htdocs\app_digitalmenu\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\xampp80\htdocs\app_digitalmenu\app\Models\M_konfig.php(135): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\xampp80\htdocs\app_digitalmenu\app\Models\M_konfig.php(109): App\Models\M_konfig->konfigurasi(1)
+#4 D:\xampp80\htdocs\app_digitalmenu\app\Controllers\Data_menu.php(30): App\Models\M_konfig->konfig_app()
+#5 D:\xampp80\htdocs\app_digitalmenu\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Data_menu->index()
+#6 D:\xampp80\htdocs\app_digitalmenu\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_menu))
+#7 D:\xampp80\htdocs\app_digitalmenu\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp80\htdocs\app_digitalmenu\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-05-17 15:08:02 --> Unknown column 'no_urut' in 'field list'
+CRITICAL - 2022-05-17 15:08:02 --> Unknown column 'no_urut' in 'field list'
+#0 D:\xampp80\htdocs\app_digitalmenu\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `da...', 0)
+#1 D:\xampp80\htdocs\app_digitalmenu\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `da...')
+#2 D:\xampp80\htdocs\app_digitalmenu\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `da...')
+#3 D:\xampp80\htdocs\app_digitalmenu\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `da...', Array, false)
+#4 D:\xampp80\htdocs\app_digitalmenu\app\Models\M_data_menu.php(137): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp80\htdocs\app_digitalmenu\app\Controllers\Data_menu.php(99): App\Models\M_data_menu->insert_data()
+#6 D:\xampp80\htdocs\app_digitalmenu\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Data_menu->insert_data()
+#7 D:\xampp80\htdocs\app_digitalmenu\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_menu))
+#8 D:\xampp80\htdocs\app_digitalmenu\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp80\htdocs\app_digitalmenu\index.php(38): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-05-17 15:08:48 --> Unknown column 'no_urut' in 'field list'
+CRITICAL - 2022-05-17 15:08:48 --> Unknown column 'no_urut' in 'field list'
+#0 D:\xampp80\htdocs\app_digitalmenu\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `da...', 0)
+#1 D:\xampp80\htdocs\app_digitalmenu\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `da...')
+#2 D:\xampp80\htdocs\app_digitalmenu\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `da...')
+#3 D:\xampp80\htdocs\app_digitalmenu\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `da...', Array, false)
+#4 D:\xampp80\htdocs\app_digitalmenu\app\Models\M_data_menu.php(137): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp80\htdocs\app_digitalmenu\app\Controllers\Data_menu.php(99): App\Models\M_data_menu->insert_data()
+#6 D:\xampp80\htdocs\app_digitalmenu\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Data_menu->insert_data()
+#7 D:\xampp80\htdocs\app_digitalmenu\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_menu))
+#8 D:\xampp80\htdocs\app_digitalmenu\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp80\htdocs\app_digitalmenu\index.php(38): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-05-17 15:23:21 --> You must set the database table to be used with your query.
+#0 D:\xampp80\htdocs\app_digitalmenu\vendor\codeigniter4\framework\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\xampp80\htdocs\app_digitalmenu\vendor\codeigniter4\framework\system\Model.php(688): CodeIgniter\Model->builder()
+#2 D:\xampp80\htdocs\app_digitalmenu\app\Models\M_data_menu.php(145): CodeIgniter\Model->__get('db_admin')
+#3 D:\xampp80\htdocs\app_digitalmenu\app\Controllers\Data_menu.php(105): App\Models\M_data_menu->edit_data()
+#4 D:\xampp80\htdocs\app_digitalmenu\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Data_menu->edit_data()
+#5 D:\xampp80\htdocs\app_digitalmenu\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_menu))
+#6 D:\xampp80\htdocs\app_digitalmenu\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp80\htdocs\app_digitalmenu\index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-17 15:23:27 --> You must set the database table to be used with your query.
+#0 D:\xampp80\htdocs\app_digitalmenu\vendor\codeigniter4\framework\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\xampp80\htdocs\app_digitalmenu\vendor\codeigniter4\framework\system\Model.php(688): CodeIgniter\Model->builder()
+#2 D:\xampp80\htdocs\app_digitalmenu\app\Models\M_data_menu.php(145): CodeIgniter\Model->__get('db_admin')
+#3 D:\xampp80\htdocs\app_digitalmenu\app\Controllers\Data_menu.php(105): App\Models\M_data_menu->edit_data()
+#4 D:\xampp80\htdocs\app_digitalmenu\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Data_menu->edit_data()
+#5 D:\xampp80\htdocs\app_digitalmenu\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_menu))
+#6 D:\xampp80\htdocs\app_digitalmenu\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp80\htdocs\app_digitalmenu\index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-17 15:24:12 --> You must set the database table to be used with your query.
+#0 D:\xampp80\htdocs\app_digitalmenu\vendor\codeigniter4\framework\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\xampp80\htdocs\app_digitalmenu\vendor\codeigniter4\framework\system\Model.php(688): CodeIgniter\Model->builder()
+#2 D:\xampp80\htdocs\app_digitalmenu\app\Models\M_data_menu.php(145): CodeIgniter\Model->__get('db_admin')
+#3 D:\xampp80\htdocs\app_digitalmenu\app\Controllers\Data_menu.php(105): App\Models\M_data_menu->edit_data()
+#4 D:\xampp80\htdocs\app_digitalmenu\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Data_menu->edit_data()
+#5 D:\xampp80\htdocs\app_digitalmenu\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_menu))
+#6 D:\xampp80\htdocs\app_digitalmenu\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp80\htdocs\app_digitalmenu\index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-17 15:25:06 --> Undefined variable $foto
+#0 D:\xampp80\htdocs\app_digitalmenu\app\Views\data_menu\edit_data.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xampp80\\htdo...', 14)
+#1 D:\xampp80\htdocs\app_digitalmenu\vendor\codeigniter4\framework\system\View\View.php(214): include('D:\\xampp80\\htdo...')
+#2 D:\xampp80\htdocs\app_digitalmenu\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp80\htdocs\app_digitalmenu\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('data_menu/edit_...', Array, true)
+#4 D:\xampp80\htdocs\app_digitalmenu\app\Controllers\Data_menu.php(106): view('data_menu/edit_...', Array)
+#5 D:\xampp80\htdocs\app_digitalmenu\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Data_menu->edit_data()
+#6 D:\xampp80\htdocs\app_digitalmenu\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_menu))
+#7 D:\xampp80\htdocs\app_digitalmenu\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp80\htdocs\app_digitalmenu\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-17 15:25:47 --> Undefined variable $gender
+#0 D:\xampp80\htdocs\app_digitalmenu\app\Views\data_menu\edit_data.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xampp80\\htdo...', 90)
+#1 D:\xampp80\htdocs\app_digitalmenu\vendor\codeigniter4\framework\system\View\View.php(214): include('D:\\xampp80\\htdo...')
+#2 D:\xampp80\htdocs\app_digitalmenu\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp80\htdocs\app_digitalmenu\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('data_menu/edit_...', Array, true)
+#4 D:\xampp80\htdocs\app_digitalmenu\app\Controllers\Data_menu.php(106): view('data_menu/edit_...', Array)
+#5 D:\xampp80\htdocs\app_digitalmenu\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Data_menu->edit_data()
+#6 D:\xampp80\htdocs\app_digitalmenu\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_menu))
+#7 D:\xampp80\htdocs\app_digitalmenu\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp80\htdocs\app_digitalmenu\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-17 15:33:03 --> You must set the database table to be used with your query.
+#0 D:\xampp80\htdocs\app_digitalmenu\vendor\codeigniter4\framework\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\xampp80\htdocs\app_digitalmenu\vendor\codeigniter4\framework\system\Model.php(717): CodeIgniter\Model->builder()
+#2 D:\xampp80\htdocs\app_digitalmenu\app\Controllers\Data_menu.php(110): CodeIgniter\Model->__call('update_data', Array)
+#3 D:\xampp80\htdocs\app_digitalmenu\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Data_menu->update_data()
+#4 D:\xampp80\htdocs\app_digitalmenu\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_menu))
+#5 D:\xampp80\htdocs\app_digitalmenu\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp80\htdocs\app_digitalmenu\index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-05-17 15:34:22 --> Unknown column 'nama_katergori' in 'field list'
+CRITICAL - 2022-05-17 15:34:22 --> Unknown column 'nama_katergori' in 'field list'
+#0 D:\xampp80\htdocs\app_digitalmenu\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `data_me...', 0)
+#1 D:\xampp80\htdocs\app_digitalmenu\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `data_me...')
+#2 D:\xampp80\htdocs\app_digitalmenu\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `data_me...')
+#3 D:\xampp80\htdocs\app_digitalmenu\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1901): CodeIgniter\Database\BaseConnection->query('UPDATE `data_me...', Array, false)
+#4 D:\xampp80\htdocs\app_digitalmenu\app\Models\M_data_menu.php(185): CodeIgniter\Database\BaseBuilder->update()
+#5 D:\xampp80\htdocs\app_digitalmenu\app\Controllers\Data_menu.php(110): App\Models\M_data_menu->update_data()
+#6 D:\xampp80\htdocs\app_digitalmenu\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Data_menu->update_data()
+#7 D:\xampp80\htdocs\app_digitalmenu\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_menu))
+#8 D:\xampp80\htdocs\app_digitalmenu\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp80\htdocs\app_digitalmenu\index.php(38): CodeIgniter\CodeIgniter->run()
+#10 {main}

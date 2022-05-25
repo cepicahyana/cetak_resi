@@ -1,0 +1,317 @@
+CRITICAL - 2022-05-12 08:43:46 --> Undefined variable $li
+#0 D:\xampp80\htdocs\app_menucafe\app\Models\M_konfig.php(196): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xampp80\\htdo...', 196)
+#1 D:\xampp80\htdocs\app_menucafe\app\Models\M_konfig.php(129): App\Models\M_konfig->menusidebar()
+#2 D:\xampp80\htdocs\app_menucafe\app\Controllers\Dashboard.php(31): App\Models\M_konfig->konfig_app()
+#3 D:\xampp80\htdocs\app_menucafe\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Dashboard->index()
+#4 D:\xampp80\htdocs\app_menucafe\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 D:\xampp80\htdocs\app_menucafe\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp80\htdocs\app_menucafe\index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-12 08:45:36 --> Undefined variable $li
+#0 D:\xampp80\htdocs\app_menucafe\app\Models\M_konfig.php(196): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xampp80\\htdo...', 196)
+#1 D:\xampp80\htdocs\app_menucafe\app\Models\M_konfig.php(129): App\Models\M_konfig->menusidebar()
+#2 D:\xampp80\htdocs\app_menucafe\app\Controllers\Dashboard.php(28): App\Models\M_konfig->konfig_app()
+#3 D:\xampp80\htdocs\app_menucafe\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Dashboard->index()
+#4 D:\xampp80\htdocs\app_menucafe\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 D:\xampp80\htdocs\app_menucafe\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp80\htdocs\app_menucafe\index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-12 08:46:17 --> Undefined variable $li
+#0 D:\xampp80\htdocs\app_menucafe\app\Models\M_konfig.php(196): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xampp80\\htdo...', 196)
+#1 D:\xampp80\htdocs\app_menucafe\app\Models\M_konfig.php(129): App\Models\M_konfig->menusidebar()
+#2 D:\xampp80\htdocs\app_menucafe\app\Controllers\Dashboard.php(28): App\Models\M_konfig->konfig_app()
+#3 D:\xampp80\htdocs\app_menucafe\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Dashboard->index()
+#4 D:\xampp80\htdocs\app_menucafe\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 D:\xampp80\htdocs\app_menucafe\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp80\htdocs\app_menucafe\index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-12 08:52:27 --> Undefined variable $li
+#0 D:\xampp80\htdocs\app_menucafe\app\Models\M_konfig.php(196): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xampp80\\htdo...', 196)
+#1 D:\xampp80\htdocs\app_menucafe\app\Models\M_konfig.php(129): App\Models\M_konfig->menusidebar()
+#2 D:\xampp80\htdocs\app_menucafe\app\Controllers\Dashboard.php(28): App\Models\M_konfig->konfig_app()
+#3 D:\xampp80\htdocs\app_menucafe\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Dashboard->index()
+#4 D:\xampp80\htdocs\app_menucafe\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 D:\xampp80\htdocs\app_menucafe\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp80\htdocs\app_menucafe\index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-12 08:55:01 --> Undefined variable $li
+#0 D:\xampp80\htdocs\app_menucafe\app\Models\M_konfig.php(198): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xampp80\\htdo...', 198)
+#1 D:\xampp80\htdocs\app_menucafe\app\Models\M_konfig.php(129): App\Models\M_konfig->menusidebar()
+#2 D:\xampp80\htdocs\app_menucafe\app\Controllers\Dashboard.php(28): App\Models\M_konfig->konfig_app()
+#3 D:\xampp80\htdocs\app_menucafe\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Dashboard->index()
+#4 D:\xampp80\htdocs\app_menucafe\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 D:\xampp80\htdocs\app_menucafe\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp80\htdocs\app_menucafe\index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-12 12:57:42 --> You must set the database table to be used with your query.
+#0 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\Model.php(717): CodeIgniter\Model->builder()
+#2 D:\xampp80\htdocs\app_bukumenu\app\Controllers\Data_menu.php(31): CodeIgniter\Model->__call('kategorimenu', Array)
+#3 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Data_menu->index()
+#4 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_menu))
+#5 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp80\htdocs\app_bukumenu\index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-12 12:58:19 --> You must set the database table to be used with your query.
+#0 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\Model.php(717): CodeIgniter\Model->builder()
+#2 D:\xampp80\htdocs\app_bukumenu\app\Controllers\Data_menu.php(31): CodeIgniter\Model->__call('kategorimenu', Array)
+#3 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Data_menu->index()
+#4 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_menu))
+#5 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp80\htdocs\app_bukumenu\index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-12 13:09:04 --> Undefined variable $ajax
+#0 D:\xampp80\htdocs\app_bukumenu\app\Controllers\Data_menu.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xampp80\\htdo...', 32)
+#1 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Data_menu->index()
+#2 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_menu))
+#3 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp80\htdocs\app_bukumenu\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-12 13:16:12 --> You must set the database table to be used with your query.
+#0 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\Model.php(717): CodeIgniter\Model->builder()
+#2 D:\xampp80\htdocs\app_bukumenu\app\Controllers\Data_menu.php(83): CodeIgniter\Model->__call('count_data_tabl...', Array)
+#3 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Data_menu->data_tables()
+#4 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_menu))
+#5 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp80\htdocs\app_bukumenu\index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-12 13:16:55 --> You must set the database table to be used with your query.
+#0 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\Model.php(717): CodeIgniter\Model->builder()
+#2 D:\xampp80\htdocs\app_bukumenu\app\Controllers\Data_menu.php(83): CodeIgniter\Model->__call('count_data_tabl...', Array)
+#3 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Data_menu->data_tables()
+#4 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_menu))
+#5 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp80\htdocs\app_bukumenu\index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-12 13:17:03 --> You must set the database table to be used with your query.
+#0 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\Model.php(717): CodeIgniter\Model->builder()
+#2 D:\xampp80\htdocs\app_bukumenu\app\Controllers\Data_menu.php(83): CodeIgniter\Model->__call('count_data_tabl...', Array)
+#3 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Data_menu->data_tables()
+#4 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_menu))
+#5 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp80\htdocs\app_bukumenu\index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-12 13:19:23 --> Undefined array key 1
+#0 D:\xampp80\htdocs\app_bukumenu\app\Models\M_data_menu.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp80\\htdo...', 94)
+#1 D:\xampp80\htdocs\app_bukumenu\app\Models\M_data_menu.php(58): App\Models\M_data_menu->_get_datatables()
+#2 D:\xampp80\htdocs\app_bukumenu\app\Controllers\Data_menu.php(42): App\Models\M_data_menu->get_data_table()
+#3 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Data_menu->data_tables()
+#4 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_menu))
+#5 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp80\htdocs\app_bukumenu\index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-12 13:20:04 --> You must set the database table to be used with your query.
+#0 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\Model.php(717): CodeIgniter\Model->builder()
+#2 D:\xampp80\htdocs\app_bukumenu\app\Controllers\Data_menu.php(83): CodeIgniter\Model->__call('count_data_tabl...', Array)
+#3 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Data_menu->data_tables()
+#4 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_menu))
+#5 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp80\htdocs\app_bukumenu\index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-12 13:21:26 --> Undefined array key 1
+#0 D:\xampp80\htdocs\app_bukumenu\app\Models\M_data_menu.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp80\\htdo...', 94)
+#1 D:\xampp80\htdocs\app_bukumenu\app\Models\M_data_menu.php(58): App\Models\M_data_menu->_get_datatables()
+#2 D:\xampp80\htdocs\app_bukumenu\app\Controllers\Data_menu.php(42): App\Models\M_data_menu->get_data_table()
+#3 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Data_menu->data_tables()
+#4 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_menu))
+#5 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp80\htdocs\app_bukumenu\index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-12 13:21:49 --> You must set the database table to be used with your query.
+#0 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\Model.php(717): CodeIgniter\Model->builder()
+#2 D:\xampp80\htdocs\app_bukumenu\app\Controllers\Data_menu.php(83): CodeIgniter\Model->__call('count_data_tabl...', Array)
+#3 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Data_menu->data_tables()
+#4 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_menu))
+#5 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp80\htdocs\app_bukumenu\index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-12 13:24:05 --> You must set the database table to be used with your query.
+#0 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\Model.php(717): CodeIgniter\Model->builder()
+#2 D:\xampp80\htdocs\app_bukumenu\app\Controllers\Data_menu.php(83): CodeIgniter\Model->__call('count_data_tabl...', Array)
+#3 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Data_menu->data_tables()
+#4 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_menu))
+#5 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp80\htdocs\app_bukumenu\index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-12 13:24:36 --> You must set the database table to be used with your query.
+#0 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\Model.php(717): CodeIgniter\Model->builder()
+#2 D:\xampp80\htdocs\app_bukumenu\app\Controllers\Data_menu.php(83): CodeIgniter\Model->__call('count_data_tabl...', Array)
+#3 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Data_menu->data_tables()
+#4 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_menu))
+#5 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp80\htdocs\app_bukumenu\index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-12 13:24:49 --> You must set the database table to be used with your query.
+#0 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\Model.php(717): CodeIgniter\Model->builder()
+#2 D:\xampp80\htdocs\app_bukumenu\app\Controllers\Data_menu.php(83): CodeIgniter\Model->__call('count_data_tabl...', Array)
+#3 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Data_menu->data_tables()
+#4 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_menu))
+#5 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp80\htdocs\app_bukumenu\index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-12 13:24:51 --> You must set the database table to be used with your query.
+#0 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\Model.php(717): CodeIgniter\Model->builder()
+#2 D:\xampp80\htdocs\app_bukumenu\app\Controllers\Data_menu.php(83): CodeIgniter\Model->__call('count_data_tabl...', Array)
+#3 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Data_menu->data_tables()
+#4 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_menu))
+#5 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp80\htdocs\app_bukumenu\index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-12 13:25:02 --> You must set the database table to be used with your query.
+#0 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\Model.php(717): CodeIgniter\Model->builder()
+#2 D:\xampp80\htdocs\app_bukumenu\app\Controllers\Data_menu.php(83): CodeIgniter\Model->__call('count_data_tabl...', Array)
+#3 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Data_menu->data_tables()
+#4 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_menu))
+#5 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp80\htdocs\app_bukumenu\index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-12 13:25:51 --> You must set the database table to be used with your query.
+#0 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\Model.php(717): CodeIgniter\Model->builder()
+#2 D:\xampp80\htdocs\app_bukumenu\app\Controllers\Data_menu.php(83): CodeIgniter\Model->__call('count_data_tabl...', Array)
+#3 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Data_menu->data_tables()
+#4 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_menu))
+#5 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp80\htdocs\app_bukumenu\index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-12 13:25:52 --> You must set the database table to be used with your query.
+#0 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\Model.php(717): CodeIgniter\Model->builder()
+#2 D:\xampp80\htdocs\app_bukumenu\app\Controllers\Data_menu.php(83): CodeIgniter\Model->__call('count_data_tabl...', Array)
+#3 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Data_menu->data_tables()
+#4 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_menu))
+#5 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp80\htdocs\app_bukumenu\index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-12 13:26:45 --> You must set the database table to be used with your query.
+#0 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\Model.php(717): CodeIgniter\Model->builder()
+#2 D:\xampp80\htdocs\app_bukumenu\app\Controllers\Data_menu.php(83): CodeIgniter\Model->__call('count_data_tabl...', Array)
+#3 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Data_menu->data_tables()
+#4 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_menu))
+#5 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp80\htdocs\app_bukumenu\index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-12 13:26:50 --> You must set the database table to be used with your query.
+#0 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\Model.php(717): CodeIgniter\Model->builder()
+#2 D:\xampp80\htdocs\app_bukumenu\app\Controllers\Data_menu.php(83): CodeIgniter\Model->__call('count_data_tabl...', Array)
+#3 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Data_menu->data_tables()
+#4 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_menu))
+#5 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp80\htdocs\app_bukumenu\index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-12 13:26:56 --> You must set the database table to be used with your query.
+#0 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\Model.php(717): CodeIgniter\Model->builder()
+#2 D:\xampp80\htdocs\app_bukumenu\app\Controllers\Data_menu.php(83): CodeIgniter\Model->__call('count_data_tabl...', Array)
+#3 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Data_menu->data_tables()
+#4 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_menu))
+#5 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp80\htdocs\app_bukumenu\index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-12 13:28:47 --> You must set the database table to be used with your query.
+#0 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\Model.php(717): CodeIgniter\Model->builder()
+#2 D:\xampp80\htdocs\app_bukumenu\app\Controllers\Data_menu.php(83): CodeIgniter\Model->__call('count_data_tabl...', Array)
+#3 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Data_menu->data_tables()
+#4 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_menu))
+#5 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp80\htdocs\app_bukumenu\index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-12 13:30:13 --> You must set the database table to be used with your query.
+#0 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\Model.php(717): CodeIgniter\Model->builder()
+#2 D:\xampp80\htdocs\app_bukumenu\app\Controllers\Data_menu.php(83): CodeIgniter\Model->__call('count_data_tabl...', Array)
+#3 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Data_menu->data_tables()
+#4 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_menu))
+#5 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp80\htdocs\app_bukumenu\index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-12 13:30:55 --> You must set the database table to be used with your query.
+#0 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\Model.php(717): CodeIgniter\Model->builder()
+#2 D:\xampp80\htdocs\app_bukumenu\app\Controllers\Data_menu.php(83): CodeIgniter\Model->__call('count_data_tabl...', Array)
+#3 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Data_menu->data_tables()
+#4 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_menu))
+#5 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp80\htdocs\app_bukumenu\index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-12 13:31:58 --> You must set the database table to be used with your query.
+#0 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\Model.php(717): CodeIgniter\Model->builder()
+#2 D:\xampp80\htdocs\app_bukumenu\app\Controllers\Data_menu.php(83): CodeIgniter\Model->__call('count_data_tabl...', Array)
+#3 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Data_menu->data_tables()
+#4 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_menu))
+#5 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp80\htdocs\app_bukumenu\index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-12 14:13:05 --> You must set the database table to be used with your query.
+#0 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\Model.php(717): CodeIgniter\Model->builder()
+#2 D:\xampp80\htdocs\app_bukumenu\app\Controllers\Data_menu.php(99): CodeIgniter\Model->__call('insert_data', Array)
+#3 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Data_menu->insert_data()
+#4 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_menu))
+#5 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp80\htdocs\app_bukumenu\index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-12 14:13:21 --> You must set the database table to be used with your query.
+#0 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\Model.php(688): CodeIgniter\Model->builder()
+#2 D:\xampp80\htdocs\app_bukumenu\app\Models\M_data_menu.php(129): CodeIgniter\Model->__get('db_admin')
+#3 D:\xampp80\htdocs\app_bukumenu\app\Controllers\Data_menu.php(99): App\Models\M_data_menu->insert_data()
+#4 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Data_menu->insert_data()
+#5 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_menu))
+#6 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp80\htdocs\app_bukumenu\index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-05-12 14:15:14 --> Unknown column 'level' in 'field list'
+CRITICAL - 2022-05-12 14:15:14 --> Unknown column 'level' in 'field list'
+#0 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `da...', 0)
+#1 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `da...')
+#2 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `da...')
+#3 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `da...', Array, false)
+#4 D:\xampp80\htdocs\app_bukumenu\app\Models\M_data_menu.php(133): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp80\htdocs\app_bukumenu\app\Controllers\Data_menu.php(99): App\Models\M_data_menu->insert_data()
+#6 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Data_menu->insert_data()
+#7 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_menu))
+#8 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp80\htdocs\app_bukumenu\index.php(38): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-05-12 14:16:21 --> Unknown column 'level' in 'field list'
+CRITICAL - 2022-05-12 14:16:21 --> Unknown column 'level' in 'field list'
+#0 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `da...', 0)
+#1 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `da...')
+#2 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `da...')
+#3 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `da...', Array, false)
+#4 D:\xampp80\htdocs\app_bukumenu\app\Models\M_data_menu.php(133): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp80\htdocs\app_bukumenu\app\Controllers\Data_menu.php(99): App\Models\M_data_menu->insert_data()
+#6 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Data_menu->insert_data()
+#7 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_menu))
+#8 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp80\htdocs\app_bukumenu\index.php(38): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-05-12 14:16:48 --> Unknown column 'level' in 'field list'
+CRITICAL - 2022-05-12 14:16:48 --> Unknown column 'level' in 'field list'
+#0 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `da...', 0)
+#1 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `da...')
+#2 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `da...')
+#3 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `da...', Array, false)
+#4 D:\xampp80\htdocs\app_bukumenu\app\Models\M_data_menu.php(133): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp80\htdocs\app_bukumenu\app\Controllers\Data_menu.php(99): App\Models\M_data_menu->insert_data()
+#6 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Data_menu->insert_data()
+#7 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_menu))
+#8 D:\xampp80\htdocs\app_bukumenu\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp80\htdocs\app_bukumenu\index.php(38): CodeIgniter\CodeIgniter->run()
+#10 {main}

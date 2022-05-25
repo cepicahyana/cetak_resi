@@ -1,0 +1,56 @@
+CRITICAL - 2022-01-14 15:43:31 --> You must set the database table to be used with your query.
+#0 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Model.php(688): CodeIgniter\Model->builder()
+#2 D:\xampp80\htdocs\app_spm\app\Models\M_abnormal.php(129): CodeIgniter\Model->__get('db_vsa')
+#3 D:\xampp80\htdocs\app_spm\app\Models\M_abnormal.php(120): App\Models\M_abnormal->_get_datatables()
+#4 D:\xampp80\htdocs\app_spm\app\Controllers\Abnormal.php(75): App\Models\M_abnormal->get_data()
+#5 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Abnormal->data_tables()
+#6 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Abnormal))
+#7 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp80\htdocs\app_spm\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp80\\htdo...')
+#10 {main}
+CRITICAL - 2022-01-14 15:45:26 --> You must set the database table to be used with your query.
+#0 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Model.php(688): CodeIgniter\Model->builder()
+#2 D:\xampp80\htdocs\app_spm\app\Models\M_abnormal.php(129): CodeIgniter\Model->__get('db_vsa')
+#3 D:\xampp80\htdocs\app_spm\app\Models\M_abnormal.php(120): App\Models\M_abnormal->_get_datatables()
+#4 D:\xampp80\htdocs\app_spm\app\Controllers\Abnormal.php(75): App\Models\M_abnormal->get_data()
+#5 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Abnormal->data_tables()
+#6 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Abnormal))
+#7 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp80\htdocs\app_spm\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp80\\htdo...')
+#10 {main}
+CRITICAL - 2022-01-14 15:47:28 --> You must set the database table to be used with your query.
+#0 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Model.php(688): CodeIgniter\Model->builder()
+#2 D:\xampp80\htdocs\app_spm\app\Models\M_abnormal.php(129): CodeIgniter\Model->__get('db_vsa')
+#3 D:\xampp80\htdocs\app_spm\app\Models\M_abnormal.php(120): App\Models\M_abnormal->_get_datatables()
+#4 D:\xampp80\htdocs\app_spm\app\Controllers\Abnormal.php(75): App\Models\M_abnormal->get_data()
+#5 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Abnormal->data_tables()
+#6 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Abnormal))
+#7 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp80\htdocs\app_spm\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp80\\htdo...')
+#10 {main}
+CRITICAL - 2022-01-14 15:59:45 --> You must set the database table to be used with your query.
+#0 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Model.php(717): CodeIgniter\Model->builder()
+#2 D:\xampp80\htdocs\app_spm\app\Controllers\Transfer.php(218): CodeIgniter\Model->__call('colosStatus', Array)
+#3 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Transfer->getInfoscanMat()
+#4 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transfer))
+#5 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp80\htdocs\app_spm\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp80\\htdo...')
+#8 {main}
+CRITICAL - 2022-01-14 16:01:43 --> You must set the database table to be used with your query.
+#0 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Model.php(717): CodeIgniter\Model->builder()
+#2 D:\xampp80\htdocs\app_spm\app\Controllers\Transfer.php(218): CodeIgniter\Model->__call('colosStatus', Array)
+#3 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Transfer->getInfoscanMat()
+#4 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transfer))
+#5 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp80\htdocs\app_spm\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\xampp80\htdocs\app_spm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp80\\htdo...')
+#8 {main}

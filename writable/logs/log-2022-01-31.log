@@ -1,0 +1,350 @@
+CRITICAL - 2022-01-31 09:38:16 --> Request URI segment is out of range: 1
+#0 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\HTTP\URI.php(529): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(1)
+#1 D:\xampp80\htdocs\app_dev\app\Models\M_konfig.php(121): CodeIgniter\HTTP\URI->getSegment(1)
+#2 D:\xampp80\htdocs\app_dev\app\Models\M_konfig.php(105): App\Models\M_konfig->menusidebar()
+#3 D:\xampp80\htdocs\app_dev\app\Controllers\Auth\Auth.php(31): App\Models\M_konfig->konfig_app()
+#4 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Auth\Auth->index()
+#5 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Auth))
+#6 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp80\htdocs\app_dev\index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-31 09:39:38 --> Request URI segment is out of range: 1
+#0 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\HTTP\URI.php(529): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(1)
+#1 D:\xampp80\htdocs\app_dev\app\Models\M_konfig.php(121): CodeIgniter\HTTP\URI->getSegment(1)
+#2 D:\xampp80\htdocs\app_dev\app\Models\M_konfig.php(105): App\Models\M_konfig->menusidebar()
+#3 D:\xampp80\htdocs\app_dev\app\Controllers\Auth\Auth.php(31): App\Models\M_konfig->konfig_app()
+#4 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Auth\Auth->index()
+#5 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Auth))
+#6 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp80\htdocs\app_dev\index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-31 09:40:34 --> Request URI segment is out of range: 1
+#0 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\HTTP\URI.php(529): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(1)
+#1 D:\xampp80\htdocs\app_dev\app\Models\M_konfig.php(121): CodeIgniter\HTTP\URI->getSegment(1)
+#2 D:\xampp80\htdocs\app_dev\app\Models\M_konfig.php(105): App\Models\M_konfig->menusidebar()
+#3 D:\xampp80\htdocs\app_dev\app\Controllers\Auth\Auth.php(31): App\Models\M_konfig->konfig_app()
+#4 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Auth\Auth->index()
+#5 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Auth))
+#6 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp80\htdocs\app_dev\index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-31 09:40:37 --> Request URI segment is out of range: 1
+#0 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\HTTP\URI.php(529): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(1)
+#1 D:\xampp80\htdocs\app_dev\app\Models\M_konfig.php(121): CodeIgniter\HTTP\URI->getSegment(1)
+#2 D:\xampp80\htdocs\app_dev\app\Models\M_konfig.php(105): App\Models\M_konfig->menusidebar()
+#3 D:\xampp80\htdocs\app_dev\app\Controllers\Auth\Auth.php(31): App\Models\M_konfig->konfig_app()
+#4 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Auth\Auth->index()
+#5 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Auth))
+#6 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp80\htdocs\app_dev\index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-31 09:41:22 --> Request URI segment is out of range: 1
+#0 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\HTTP\URI.php(529): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(1)
+#1 D:\xampp80\htdocs\app_dev\app\Models\M_konfig.php(121): CodeIgniter\HTTP\URI->getSegment(1)
+#2 D:\xampp80\htdocs\app_dev\app\Models\M_konfig.php(105): App\Models\M_konfig->menusidebar()
+#3 D:\xampp80\htdocs\app_dev\app\Controllers\Auth\Auth.php(31): App\Models\M_konfig->konfig_app()
+#4 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Auth\Auth->index()
+#5 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Auth))
+#6 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp80\htdocs\app_dev\index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-31 09:41:23 --> Request URI segment is out of range: 1
+#0 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\HTTP\URI.php(529): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(1)
+#1 D:\xampp80\htdocs\app_dev\app\Models\M_konfig.php(121): CodeIgniter\HTTP\URI->getSegment(1)
+#2 D:\xampp80\htdocs\app_dev\app\Models\M_konfig.php(105): App\Models\M_konfig->menusidebar()
+#3 D:\xampp80\htdocs\app_dev\app\Controllers\Auth\Auth.php(31): App\Models\M_konfig->konfig_app()
+#4 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Auth\Auth->index()
+#5 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Auth))
+#6 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp80\htdocs\app_dev\index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-31 09:41:24 --> Request URI segment is out of range: 1
+#0 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\HTTP\URI.php(529): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(1)
+#1 D:\xampp80\htdocs\app_dev\app\Models\M_konfig.php(121): CodeIgniter\HTTP\URI->getSegment(1)
+#2 D:\xampp80\htdocs\app_dev\app\Models\M_konfig.php(105): App\Models\M_konfig->menusidebar()
+#3 D:\xampp80\htdocs\app_dev\app\Controllers\Auth\Auth.php(31): App\Models\M_konfig->konfig_app()
+#4 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Auth\Auth->index()
+#5 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Auth))
+#6 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp80\htdocs\app_dev\index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-31 09:41:24 --> Request URI segment is out of range: 1
+#0 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\HTTP\URI.php(529): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(1)
+#1 D:\xampp80\htdocs\app_dev\app\Models\M_konfig.php(121): CodeIgniter\HTTP\URI->getSegment(1)
+#2 D:\xampp80\htdocs\app_dev\app\Models\M_konfig.php(105): App\Models\M_konfig->menusidebar()
+#3 D:\xampp80\htdocs\app_dev\app\Controllers\Auth\Auth.php(31): App\Models\M_konfig->konfig_app()
+#4 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Auth\Auth->index()
+#5 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Auth))
+#6 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp80\htdocs\app_dev\index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-31 09:41:46 --> Request URI segment is out of range: 1
+#0 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\HTTP\URI.php(529): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(1)
+#1 D:\xampp80\htdocs\app_dev\app\Models\M_konfig.php(121): CodeIgniter\HTTP\URI->getSegment(1)
+#2 D:\xampp80\htdocs\app_dev\app\Models\M_konfig.php(105): App\Models\M_konfig->menusidebar()
+#3 D:\xampp80\htdocs\app_dev\app\Controllers\Auth\Auth.php(31): App\Models\M_konfig->konfig_app()
+#4 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Auth\Auth->index()
+#5 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Auth))
+#6 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp80\htdocs\app_dev\index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-31 09:41:46 --> Request URI segment is out of range: 1
+#0 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\HTTP\URI.php(529): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(1)
+#1 D:\xampp80\htdocs\app_dev\app\Models\M_konfig.php(121): CodeIgniter\HTTP\URI->getSegment(1)
+#2 D:\xampp80\htdocs\app_dev\app\Models\M_konfig.php(105): App\Models\M_konfig->menusidebar()
+#3 D:\xampp80\htdocs\app_dev\app\Controllers\Auth\Auth.php(31): App\Models\M_konfig->konfig_app()
+#4 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Auth\Auth->index()
+#5 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Auth))
+#6 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp80\htdocs\app_dev\index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-31 09:43:30 --> Request URI segment is out of range: 1
+#0 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\HTTP\URI.php(529): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(1)
+#1 D:\xampp80\htdocs\app_dev\app\Models\M_konfig.php(121): CodeIgniter\HTTP\URI->getSegment(1)
+#2 D:\xampp80\htdocs\app_dev\app\Models\M_konfig.php(105): App\Models\M_konfig->menusidebar()
+#3 D:\xampp80\htdocs\app_dev\app\Controllers\Auth\Auth.php(31): App\Models\M_konfig->konfig_app()
+#4 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Auth\Auth->index()
+#5 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Auth))
+#6 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp80\htdocs\app_dev\index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-31 09:43:31 --> Request URI segment is out of range: 1
+#0 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\HTTP\URI.php(529): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(1)
+#1 D:\xampp80\htdocs\app_dev\app\Models\M_konfig.php(121): CodeIgniter\HTTP\URI->getSegment(1)
+#2 D:\xampp80\htdocs\app_dev\app\Models\M_konfig.php(105): App\Models\M_konfig->menusidebar()
+#3 D:\xampp80\htdocs\app_dev\app\Controllers\Auth\Auth.php(31): App\Models\M_konfig->konfig_app()
+#4 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Auth\Auth->index()
+#5 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Auth))
+#6 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp80\htdocs\app_dev\index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-31 09:43:31 --> Request URI segment is out of range: 1
+#0 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\HTTP\URI.php(529): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(1)
+#1 D:\xampp80\htdocs\app_dev\app\Models\M_konfig.php(121): CodeIgniter\HTTP\URI->getSegment(1)
+#2 D:\xampp80\htdocs\app_dev\app\Models\M_konfig.php(105): App\Models\M_konfig->menusidebar()
+#3 D:\xampp80\htdocs\app_dev\app\Controllers\Auth\Auth.php(31): App\Models\M_konfig->konfig_app()
+#4 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Auth\Auth->index()
+#5 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Auth))
+#6 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp80\htdocs\app_dev\index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-31 09:44:19 --> Request URI segment is out of range: 1
+#0 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\HTTP\URI.php(529): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(1)
+#1 D:\xampp80\htdocs\app_dev\app\Models\M_konfig.php(121): CodeIgniter\HTTP\URI->getSegment(1)
+#2 D:\xampp80\htdocs\app_dev\app\Models\M_konfig.php(105): App\Models\M_konfig->menusidebar()
+#3 D:\xampp80\htdocs\app_dev\app\Controllers\Auth\Auth.php(31): App\Models\M_konfig->konfig_app()
+#4 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Auth\Auth->index()
+#5 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Auth))
+#6 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp80\htdocs\app_dev\index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-31 09:44:22 --> Request URI segment is out of range: 1
+#0 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\HTTP\URI.php(529): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(1)
+#1 D:\xampp80\htdocs\app_dev\app\Models\M_konfig.php(121): CodeIgniter\HTTP\URI->getSegment(1)
+#2 D:\xampp80\htdocs\app_dev\app\Models\M_konfig.php(105): App\Models\M_konfig->menusidebar()
+#3 D:\xampp80\htdocs\app_dev\app\Controllers\Auth\Auth.php(31): App\Models\M_konfig->konfig_app()
+#4 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Auth\Auth->index()
+#5 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Auth))
+#6 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp80\htdocs\app_dev\index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-31 09:44:47 --> Request URI segment is out of range: 1
+#0 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\HTTP\URI.php(529): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(1)
+#1 D:\xampp80\htdocs\app_dev\app\Models\M_konfig.php(121): CodeIgniter\HTTP\URI->getSegment(1)
+#2 D:\xampp80\htdocs\app_dev\app\Models\M_konfig.php(105): App\Models\M_konfig->menusidebar()
+#3 D:\xampp80\htdocs\app_dev\app\Controllers\Auth\Auth.php(31): App\Models\M_konfig->konfig_app()
+#4 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Auth\Auth->index()
+#5 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Auth))
+#6 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp80\htdocs\app_dev\index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-31 09:44:47 --> Request URI segment is out of range: 1
+#0 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\HTTP\URI.php(529): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(1)
+#1 D:\xampp80\htdocs\app_dev\app\Models\M_konfig.php(121): CodeIgniter\HTTP\URI->getSegment(1)
+#2 D:\xampp80\htdocs\app_dev\app\Models\M_konfig.php(105): App\Models\M_konfig->menusidebar()
+#3 D:\xampp80\htdocs\app_dev\app\Controllers\Auth\Auth.php(31): App\Models\M_konfig->konfig_app()
+#4 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Auth\Auth->index()
+#5 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Auth))
+#6 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp80\htdocs\app_dev\index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-31 09:44:48 --> Request URI segment is out of range: 1
+#0 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\HTTP\URI.php(529): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(1)
+#1 D:\xampp80\htdocs\app_dev\app\Models\M_konfig.php(121): CodeIgniter\HTTP\URI->getSegment(1)
+#2 D:\xampp80\htdocs\app_dev\app\Models\M_konfig.php(105): App\Models\M_konfig->menusidebar()
+#3 D:\xampp80\htdocs\app_dev\app\Controllers\Auth\Auth.php(31): App\Models\M_konfig->konfig_app()
+#4 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Auth\Auth->index()
+#5 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Auth))
+#6 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp80\htdocs\app_dev\index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-31 09:44:48 --> Request URI segment is out of range: 1
+#0 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\HTTP\URI.php(529): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(1)
+#1 D:\xampp80\htdocs\app_dev\app\Models\M_konfig.php(121): CodeIgniter\HTTP\URI->getSegment(1)
+#2 D:\xampp80\htdocs\app_dev\app\Models\M_konfig.php(105): App\Models\M_konfig->menusidebar()
+#3 D:\xampp80\htdocs\app_dev\app\Controllers\Auth\Auth.php(31): App\Models\M_konfig->konfig_app()
+#4 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Auth\Auth->index()
+#5 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Auth))
+#6 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp80\htdocs\app_dev\index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-31 09:44:49 --> Request URI segment is out of range: 1
+#0 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\HTTP\URI.php(529): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(1)
+#1 D:\xampp80\htdocs\app_dev\app\Models\M_konfig.php(121): CodeIgniter\HTTP\URI->getSegment(1)
+#2 D:\xampp80\htdocs\app_dev\app\Models\M_konfig.php(105): App\Models\M_konfig->menusidebar()
+#3 D:\xampp80\htdocs\app_dev\app\Controllers\Auth\Auth.php(31): App\Models\M_konfig->konfig_app()
+#4 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Auth\Auth->index()
+#5 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Auth))
+#6 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp80\htdocs\app_dev\index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-31 09:44:49 --> Request URI segment is out of range: 1
+#0 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\HTTP\URI.php(529): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(1)
+#1 D:\xampp80\htdocs\app_dev\app\Models\M_konfig.php(121): CodeIgniter\HTTP\URI->getSegment(1)
+#2 D:\xampp80\htdocs\app_dev\app\Models\M_konfig.php(105): App\Models\M_konfig->menusidebar()
+#3 D:\xampp80\htdocs\app_dev\app\Controllers\Auth\Auth.php(31): App\Models\M_konfig->konfig_app()
+#4 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Auth\Auth->index()
+#5 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Auth))
+#6 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp80\htdocs\app_dev\index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-31 09:47:34 --> Request URI segment is out of range: 1
+#0 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\HTTP\URI.php(529): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(1)
+#1 D:\xampp80\htdocs\app_dev\app\Models\M_konfig.php(121): CodeIgniter\HTTP\URI->getSegment(1)
+#2 D:\xampp80\htdocs\app_dev\app\Models\M_konfig.php(105): App\Models\M_konfig->menusidebar()
+#3 D:\xampp80\htdocs\app_dev\app\Controllers\Auth\Auth.php(31): App\Models\M_konfig->konfig_app()
+#4 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Auth\Auth->index()
+#5 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Auth))
+#6 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp80\htdocs\app_dev\index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-31 09:47:35 --> Request URI segment is out of range: 1
+#0 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\HTTP\URI.php(529): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(1)
+#1 D:\xampp80\htdocs\app_dev\app\Models\M_konfig.php(121): CodeIgniter\HTTP\URI->getSegment(1)
+#2 D:\xampp80\htdocs\app_dev\app\Models\M_konfig.php(105): App\Models\M_konfig->menusidebar()
+#3 D:\xampp80\htdocs\app_dev\app\Controllers\Auth\Auth.php(31): App\Models\M_konfig->konfig_app()
+#4 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Auth\Auth->index()
+#5 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Auth))
+#6 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp80\htdocs\app_dev\index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-31 09:47:36 --> Request URI segment is out of range: 1
+#0 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\HTTP\URI.php(529): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(1)
+#1 D:\xampp80\htdocs\app_dev\app\Models\M_konfig.php(121): CodeIgniter\HTTP\URI->getSegment(1)
+#2 D:\xampp80\htdocs\app_dev\app\Models\M_konfig.php(105): App\Models\M_konfig->menusidebar()
+#3 D:\xampp80\htdocs\app_dev\app\Controllers\Auth\Auth.php(31): App\Models\M_konfig->konfig_app()
+#4 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Auth\Auth->index()
+#5 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Auth))
+#6 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp80\htdocs\app_dev\index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-31 09:47:36 --> Request URI segment is out of range: 1
+#0 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\HTTP\URI.php(529): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(1)
+#1 D:\xampp80\htdocs\app_dev\app\Models\M_konfig.php(121): CodeIgniter\HTTP\URI->getSegment(1)
+#2 D:\xampp80\htdocs\app_dev\app\Models\M_konfig.php(105): App\Models\M_konfig->menusidebar()
+#3 D:\xampp80\htdocs\app_dev\app\Controllers\Auth\Auth.php(31): App\Models\M_konfig->konfig_app()
+#4 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Auth\Auth->index()
+#5 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Auth))
+#6 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp80\htdocs\app_dev\index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-31 09:47:36 --> Request URI segment is out of range: 1
+#0 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\HTTP\URI.php(529): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(1)
+#1 D:\xampp80\htdocs\app_dev\app\Models\M_konfig.php(121): CodeIgniter\HTTP\URI->getSegment(1)
+#2 D:\xampp80\htdocs\app_dev\app\Models\M_konfig.php(105): App\Models\M_konfig->menusidebar()
+#3 D:\xampp80\htdocs\app_dev\app\Controllers\Auth\Auth.php(31): App\Models\M_konfig->konfig_app()
+#4 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Auth\Auth->index()
+#5 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Auth))
+#6 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp80\htdocs\app_dev\index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-31 09:47:48 --> Request URI segment is out of range: 1
+#0 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\HTTP\URI.php(529): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(1)
+#1 D:\xampp80\htdocs\app_dev\app\Models\M_konfig.php(121): CodeIgniter\HTTP\URI->getSegment(1)
+#2 D:\xampp80\htdocs\app_dev\app\Models\M_konfig.php(105): App\Models\M_konfig->menusidebar()
+#3 D:\xampp80\htdocs\app_dev\app\Controllers\Auth\Auth.php(31): App\Models\M_konfig->konfig_app()
+#4 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Auth\Auth->index()
+#5 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Auth))
+#6 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp80\htdocs\app_dev\index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-31 09:47:49 --> Request URI segment is out of range: 1
+#0 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\HTTP\URI.php(529): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(1)
+#1 D:\xampp80\htdocs\app_dev\app\Models\M_konfig.php(121): CodeIgniter\HTTP\URI->getSegment(1)
+#2 D:\xampp80\htdocs\app_dev\app\Models\M_konfig.php(105): App\Models\M_konfig->menusidebar()
+#3 D:\xampp80\htdocs\app_dev\app\Controllers\Auth\Auth.php(31): App\Models\M_konfig->konfig_app()
+#4 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Auth\Auth->index()
+#5 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Auth))
+#6 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp80\htdocs\app_dev\index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-31 09:47:49 --> Request URI segment is out of range: 1
+#0 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\HTTP\URI.php(529): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(1)
+#1 D:\xampp80\htdocs\app_dev\app\Models\M_konfig.php(121): CodeIgniter\HTTP\URI->getSegment(1)
+#2 D:\xampp80\htdocs\app_dev\app\Models\M_konfig.php(105): App\Models\M_konfig->menusidebar()
+#3 D:\xampp80\htdocs\app_dev\app\Controllers\Auth\Auth.php(31): App\Models\M_konfig->konfig_app()
+#4 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Auth\Auth->index()
+#5 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Auth))
+#6 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp80\htdocs\app_dev\index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-31 09:48:18 --> Request URI segment is out of range: 1
+#0 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\HTTP\URI.php(529): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(1)
+#1 D:\xampp80\htdocs\app_dev\app\Models\M_konfig.php(121): CodeIgniter\HTTP\URI->getSegment(1)
+#2 D:\xampp80\htdocs\app_dev\app\Models\M_konfig.php(105): App\Models\M_konfig->menusidebar()
+#3 D:\xampp80\htdocs\app_dev\app\Controllers\Auth\Auth.php(31): App\Models\M_konfig->konfig_app()
+#4 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Auth\Auth->index()
+#5 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Auth))
+#6 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp80\htdocs\app_dev\index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-31 09:48:19 --> Request URI segment is out of range: 1
+#0 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\HTTP\URI.php(529): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(1)
+#1 D:\xampp80\htdocs\app_dev\app\Models\M_konfig.php(121): CodeIgniter\HTTP\URI->getSegment(1)
+#2 D:\xampp80\htdocs\app_dev\app\Models\M_konfig.php(105): App\Models\M_konfig->menusidebar()
+#3 D:\xampp80\htdocs\app_dev\app\Controllers\Auth\Auth.php(31): App\Models\M_konfig->konfig_app()
+#4 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Auth\Auth->index()
+#5 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Auth))
+#6 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp80\htdocs\app_dev\index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-31 09:48:19 --> Request URI segment is out of range: 1
+#0 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\HTTP\URI.php(529): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(1)
+#1 D:\xampp80\htdocs\app_dev\app\Models\M_konfig.php(121): CodeIgniter\HTTP\URI->getSegment(1)
+#2 D:\xampp80\htdocs\app_dev\app\Models\M_konfig.php(105): App\Models\M_konfig->menusidebar()
+#3 D:\xampp80\htdocs\app_dev\app\Controllers\Auth\Auth.php(31): App\Models\M_konfig->konfig_app()
+#4 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Auth\Auth->index()
+#5 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Auth))
+#6 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp80\htdocs\app_dev\index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-31 09:48:29 --> Request URI segment is out of range: 1
+#0 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\HTTP\URI.php(529): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(1)
+#1 D:\xampp80\htdocs\app_dev\app\Models\M_konfig.php(121): CodeIgniter\HTTP\URI->getSegment(1)
+#2 D:\xampp80\htdocs\app_dev\app\Models\M_konfig.php(105): App\Models\M_konfig->menusidebar()
+#3 D:\xampp80\htdocs\app_dev\app\Controllers\Auth\Auth.php(31): App\Models\M_konfig->konfig_app()
+#4 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Auth\Auth->index()
+#5 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Auth))
+#6 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp80\htdocs\app_dev\index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-31 09:48:29 --> Request URI segment is out of range: 1
+#0 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\HTTP\URI.php(529): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(1)
+#1 D:\xampp80\htdocs\app_dev\app\Models\M_konfig.php(121): CodeIgniter\HTTP\URI->getSegment(1)
+#2 D:\xampp80\htdocs\app_dev\app\Models\M_konfig.php(105): App\Models\M_konfig->menusidebar()
+#3 D:\xampp80\htdocs\app_dev\app\Controllers\Auth\Auth.php(31): App\Models\M_konfig->konfig_app()
+#4 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Auth\Auth->index()
+#5 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Auth))
+#6 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp80\htdocs\app_dev\index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-31 09:49:00 --> Request URI segment is out of range: 1
+#0 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\HTTP\URI.php(529): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(1)
+#1 D:\xampp80\htdocs\app_dev\app\Models\M_konfig.php(121): CodeIgniter\HTTP\URI->getSegment(1)
+#2 D:\xampp80\htdocs\app_dev\app\Models\M_konfig.php(105): App\Models\M_konfig->menusidebar()
+#3 D:\xampp80\htdocs\app_dev\app\Controllers\Auth\Auth.php(31): App\Models\M_konfig->konfig_app()
+#4 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Auth\Auth->index()
+#5 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Auth))
+#6 D:\xampp80\htdocs\app_dev\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp80\htdocs\app_dev\index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}

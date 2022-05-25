@@ -1,0 +1,9 @@
+CRITICAL - 2022-05-24 18:46:59 --> Invalid file: data_menu/index.php
+#0 D:\xampp80\htdocs\app_cetakresi\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('data_menu/index...')
+#1 D:\xampp80\htdocs\app_cetakresi\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('data_menu/index', Array, true)
+#2 D:\xampp80\htdocs\app_cetakresi\app\Controllers\Data_resi.php(34): view('data_menu/index', Array)
+#3 D:\xampp80\htdocs\app_cetakresi\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Data_resi->index()
+#4 D:\xampp80\htdocs\app_cetakresi\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_resi))
+#5 D:\xampp80\htdocs\app_cetakresi\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp80\htdocs\app_cetakresi\index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
