@@ -91,6 +91,13 @@ $routes->group('dashboard', ['namespace' => '\App\Controllers','filter' => 'auth
 	$routes->match(['get', 'post'], '/', 'Dashboard::index');
 });
 
+//formadd_resi------------------------------------------------------------------------
+$routes->group('formadd_resi', ['namespace' => '\App\Controllers','filter' => 'auth'], function ($routes) {
+	$routes->match(['get', 'post'], '/', 'Formadd_resi::index');
+	$routes->post('input_data', 'Formadd_resi::input_data');
+	$routes->post('insert_data', 'Formadd_resi::insert_data');
+});
+
 //data_resi------------------------------------------------------------------------
 $routes->group('data_resi', ['namespace' => '\App\Controllers','filter' => 'auth'], function ($routes) {
 	$routes->match(['get', 'post'], '/', 'Data_resi::index');

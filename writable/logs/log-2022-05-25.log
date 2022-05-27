@@ -1,0 +1,16 @@
+CRITICAL - 2022-05-25 15:17:56 --> Undefined variable $tanggal_input
+#0 D:\xampp80\htdocs\cetak_resi\app\Views\formadd_resi\index.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xampp80\\htdo...', 34)
+#1 D:\xampp80\htdocs\cetak_resi\vendor\codeigniter4\framework\system\View\View.php(214): include('D:\\xampp80\\htdo...')
+#2 D:\xampp80\htdocs\cetak_resi\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp80\htdocs\cetak_resi\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('formadd_resi/in...', Array, true)
+#4 D:\xampp80\htdocs\cetak_resi\app\Views\temp_back\content.php(9): view('formadd_resi/in...')
+#5 D:\xampp80\htdocs\cetak_resi\vendor\codeigniter4\framework\system\View\View.php(214): include('D:\\xampp80\\htdo...')
+#6 D:\xampp80\htdocs\cetak_resi\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 D:\xampp80\htdocs\cetak_resi\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('temp_back/conte...', Array, true)
+#8 D:\xampp80\htdocs\cetak_resi\app\Controllers\Formadd_resi.php(25): view('temp_back/conte...', Array)
+#9 D:\xampp80\htdocs\cetak_resi\app\Controllers\Formadd_resi.php(37): App\Controllers\Formadd_resi->_template(Array)
+#10 D:\xampp80\htdocs\cetak_resi\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Formadd_resi->index()
+#11 D:\xampp80\htdocs\cetak_resi\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Formadd_resi))
+#12 D:\xampp80\htdocs\cetak_resi\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 D:\xampp80\htdocs\cetak_resi\index.php(38): CodeIgniter\CodeIgniter->run()
+#14 {main}

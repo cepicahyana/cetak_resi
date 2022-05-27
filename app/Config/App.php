@@ -24,7 +24,7 @@ class App extends BaseConfig
      * @var string
      */
     /*public $baseURL = 'http://localhost:8080/'; default*/
-    public $baseURL = 'http://localhost/app_cetakresi/';
+    public $baseURL = 'http://localhost/cetak_resi/';
 
     /**
      * --------------------------------------------------------------------------
